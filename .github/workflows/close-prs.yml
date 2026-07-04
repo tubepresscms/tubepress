@@ -1,0 +1,30 @@
+name: Close pull requests
+
+# This repository is a read-only publishing mirror: PRs are closed automatically.
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request.number;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr,
+              body: "Thanks for your interest in TubePress! This repository is a **read-only mirror** and does not accept pull requests (see CONTRIBUTING.md) — closing automatically. Questions and feedback are welcome via https://tubepress.io/contact."
+            });
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: pr,
+              state: "closed"
+            });
