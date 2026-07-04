@@ -17,9 +17,10 @@
 ## Why TubePress
 
 - **Video pipeline built in** — FFmpeg transcoding with admin‑defined formats and renditions, poster thumbnails, animated hover previews, optional watermark and intro burn‑ins, multi‑server storage.
-- **Licensed content catalogue** — 1M+ videos and 500k+ photo galleries available for one‑click, per‑item licensed import, so a new site is never empty.
+- **Licensed content catalogue** — over a million licensed items (540k+ videos, 560k+ photo galleries) available for one‑click, per‑item import, so a new site is never empty.
 - **Bulk import** — CSV/JSON feeds with mapping, scheduling and safe re‑runs.
-- **Monetization surfaces** — memberships and premium tiers, PPV‑ready flows, and a full ad system (dozens of zones, VAST support).
+- **Ad system built in** — dozens of placement zones across pages and player (VAST‑compatible video slots), managed from the admin.
+- **Member accounts** — registration, favorites, watch history and comments: the audience layer, on your own domain.
 - **Native CTR ranking** — impressions and clicks measured per video and fed back into listing order; no external recommendation service required.
 - **SEO by default** — VideoObject / BreadcrumbList schema, XML sitemaps, hreflang, clean canonical URLs, server‑rendered HTML.
 - **Multilingual** — 30 interface languages shipped; per‑entity translation tooling, with optional AI translation for tags and categories.
