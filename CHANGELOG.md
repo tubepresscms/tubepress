@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.44 - 2026-07-10
+
+- One-click support chat in the sidebar
+- A blue chat button now sits right next to Help Center in the sidebar — one click opens your support tickets directly.
+- When our team replies, that chat button pulses with an unread counter and clicking it opens the reply straight away; Help Center itself is back to being your documentation hub.
+
 ## 1.0.43 - 2026-07-10
 
 - Support panel stays open + instant reply alerts
