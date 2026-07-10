@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.42 - 2026-07-10
+
+- Polished default appearance for new installations
+- New installations now start with a refined out-of-the-box look — colours, dark mode, layout, sorting, video cards, watch page, and the navigation menu (including Albums) — plus a default logo and favicon.
+- Photo-album listings and cards now have sensible built-in defaults.
+- The catalogue download queue now defaults to 3 parallel downloads.
+
 ## 1.0.41 - 2026-07-03
 
 - Security and robustness hardening
