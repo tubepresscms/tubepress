@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.47 - 2026-07-11
+
+- Reliable bulk delete for videos
+- Deleting videos — one by one, or in bulk from the Videos list — is now reliable. Before, removing a video that had any category, tag, performer or channel could silently do nothing.
+- Bulk delete now runs straight from your browser with a clear progress bar, so it finishes dependably on every host (no background worker required).
+
 ## 1.0.46 - 2026-07-10
 
 - Instant, parallel downloads + close/delete your tickets
