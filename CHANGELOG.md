@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.45 - 2026-07-10
+
+- Much faster catalogue browsing + smarter reply alerts
+- The Import catalogue now loads and switches between Videos/Galleries and Straight/Gay/Hentai near-instantly: pages are cached and prefetched in the background, with a smooth loading skeleton.
+- Unread support-reply alerts now stay visible until you actually open the reply — navigating between admin pages no longer clears them — and replies that were already waiting for you light up even on a fresh browser.
+
 ## 1.0.44 - 2026-07-10
 
 - One-click support chat in the sidebar
