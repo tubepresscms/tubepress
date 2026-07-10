@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.43 - 2026-07-10
+
+- Support panel stays open + instant reply alerts
+- Your open support ticket now stays on screen while you move between admin pages — only the X button closes it, and reply drafts are kept per ticket until you send them.
+- When our support team answers you, the red Help Center button in the sidebar now pulses with an unread counter — one click opens the reply directly.
+- Unread replies are also highlighted in the ticket list, and indicators refresh automatically while you work.
+
 ## 1.0.42 - 2026-07-10
 
 - Polished default appearance for new installations
