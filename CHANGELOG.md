@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.46 - 2026-07-10
+
+- Instant, parallel downloads + close/delete your tickets
+- Imported videos now start downloading immediately and respect your chosen number of parallel downloads, even on brand-new sites with no visitors yet.
+- You can now close a ticket (a reply reopens it) or permanently delete one, from a menu in the ticket header.
+- Clicking the support chat icon when you have replies now always opens your most recently answered ticket.
+
 ## 1.0.45 - 2026-07-10
 
 - Much faster catalogue browsing + smarter reply alerts
