@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.50 - 2026-07-11
+
+- Installation now works on MySQL 8
+- Fixed the setup wizard failing at the database step on MySQL 8 with a misleading "user privileges" error — three migrations used MariaDB-only SQL syntax that MySQL rejects.
+- Existing sites on MySQL automatically repair the affected album features (comments, reports and taxonomy counters) when applying this update.
+
 ## 1.0.49 - 2026-07-11
 
 - Help Center: album layout & sidebar guide
