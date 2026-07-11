@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.48 - 2026-07-11
+
+- Album layout defaults (fresh installs)
+- New Appearance > Layout > Albums options are pre-seeded on fresh installs: default album display (Grid/Masonry), default navigation (Pages/Infinite) and which sidebar filters show. Existing sites are unaffected and keep their current look.
+
 ## 1.0.47 - 2026-07-11
 
 - Reliable bulk delete for videos
