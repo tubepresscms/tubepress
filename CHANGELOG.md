@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.49 - 2026-07-11
+
+- Help Center: album layout & sidebar guide
+- The in-app Help Center now documents the new album listing options — default Grid/Masonry display, Pages/Infinite navigation and the show/hide sidebar filters — with a one-click link to Appearance > Layout. Search "masonry", "infinite" or "sidebar" to find it.
+
 ## 1.0.48 - 2026-07-11
 
 - Album layout defaults (fresh installs)
