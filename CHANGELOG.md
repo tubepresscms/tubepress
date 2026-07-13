@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.51 - 2026-07-13
+
+- Per-language translation pricing and reliable multi-language imports
+- Catalogue AI translations are now billed per target language: the import dialog shows the per-language price and the exact total for your enabled languages, for both titles and descriptions.
+- You can now translate into up to 30 languages per import (video imports were previously capped at 8).
+- Translations run in small batches of up to 5 languages per request, with automatic retries for any missing language — large language sets import reliably instead of failing as one giant request.
+- Collected translations are saved as they arrive, so an interrupted import resumes without losing finished translations.
+- The purchase summary now itemizes every AI option with live prices, including the description-translation line.
+
 ## 1.0.50 - 2026-07-11
 
 - Installation now works on MySQL 8
