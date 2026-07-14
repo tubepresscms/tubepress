@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.52 - 2026-07-14
+
+- Localized URLs now work in every language
+- Fixed 404 errors on the category, tag and pornstar section pages in languages where the translated URL word is identical for singular and plural (Malay, Indonesian, Vietnamese, Czech, Hungarian, Italian).
+- Fixed video pages, likes, comments and recommended-video loading returning 404 in Bulgarian, Indonesian, Italian, Malay, Russian, Serbian, Ukrainian and Vietnamese.
+
 ## 1.0.51 - 2026-07-13
 
 - Per-language translation pricing and reliable multi-language imports
