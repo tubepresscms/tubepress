@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.55 - 2026-07-15
+
+- Admin sidebar: support panel opens again and cleaner menu width
+- The support button in the admin sidebar now opens your tickets again.
+- The sidebar no longer shows an empty strip next to the menu, so its width matches the menu items.
+
 ## 1.0.54 - 2026-07-15
 
 - Admin sidebar polish and internal cleanup
