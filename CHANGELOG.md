@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.54 - 2026-07-15
+
+- Admin sidebar polish and internal cleanup
+- The admin sidebar no longer becomes narrower the moment its menu grows long enough to scroll: the scrollbar space is now always reserved and the bar itself is a slim, dark-themed 6px.
+- Internal source cleanup across the whole codebase — smaller download and update packages, no functional changes.
+
 ## 1.0.53 - 2026-07-15
 
 - Much smoother pages on phones and low-end devices
