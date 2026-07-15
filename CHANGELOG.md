@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.53 - 2026-07-15
+
+- Much smoother pages on phones and low-end devices
+- Video thumbnails no longer create a hidden video player for each card at page load. The hover preview player is now created the moment you first hover a card — previews look and behave exactly as before, while pages load lighter and use far less CPU, GPU and memory.
+- Removed the per-card frosted-glass blur effects (duration badge, play icon) and scoped the blurred sticky header to desktop-class devices — long video grids now scroll smoothly on mobile.
+- Bundles Simply theme 1.0.16, which carries these performance fixes.
+
 ## 1.0.52 - 2026-07-14
 
 - Localized URLs now work in every language
