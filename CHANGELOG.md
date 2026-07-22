@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.56 - 2026-07-22
+
+- Import: clearer heads-up before transcoding
+- When importing from the catalogue, choosing "Stream smoothly" or "Shrink to save space" now warns you if no conversion server is set up — encoding then runs on this server and uses most of its CPU while it works.
+- The notice links to Settings → Transcoding → Servers so you can offload encoding to a dedicated worker.
+
 ## 1.0.55 - 2026-07-15
 
 - Admin sidebar: support panel opens again and cleaner menu width
