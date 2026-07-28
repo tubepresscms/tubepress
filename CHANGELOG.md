@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.58 - 2026-07-28
+
+- Top up your credits with cryptocurrency
+- The Top Up window now offers the payment methods your TubePress account actually has enabled, instead of stalling on an empty Payment step when card payment is unavailable.
+- Choose from more than 50 coins and networks, with a search box and the exact amount to send — tax included — shown before you commit to anything.
+- The payment step gives you a QR code, the deposit address and the amount with one-click copy, plus the memo or tag as a required field on the networks that need one.
+- Your transfer is tracked live and the credits are added automatically once the network confirms, so you can close the window and come back later.
+- Anything that goes wrong is now explained inside the window — coin unavailable, amount below that coin's minimum, service unreachable — instead of failing silently.
+
 ## 1.0.57 - 2026-07-22
 
 - Import: clearer CPU heads-up before transcoding
