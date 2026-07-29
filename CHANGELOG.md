@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.61 - 2026-07-29
+
+- Fixes large video uploads to S3 and other remote storage.
+- Large uploads could fail with "Operation too slow" even when the transfer was perfectly healthy. A storage endpoint sitting behind a buffering gateway (nginx and similar) stays silent between the last byte it receives and its reply, for as long as it needs to store the object - several minutes for a large video. The CMS treated that silence as a dead connection and gave up after two minutes. The stall check now only applies while data is still being sent, so the storage server is free to take the time it needs.
+- Small files were never affected, which is why the storage Test could pass while every video import failed.
+
 ## 1.0.60 - 2026-07-29
 
 - Remote storage (S3) reliability and diagnostics.
