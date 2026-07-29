@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.59 - 2026-07-29
+
+- S3 storage uploads fixed
+- Imports no longer fail with "Failed to upload video.mp4 to storage server" when your S3-compatible endpoint URL includes a port (for example MinIO on :9000).
+- Large video uploads to S3 are no longer cut off after 5 minutes and now run to completion as long as data keeps flowing.
+- The storage Test button now validates these endpoints correctly, and failed S3 uploads are recorded in the PHP error log with the HTTP status for easier diagnosis.
+
 ## 1.0.58 - 2026-07-28
 
 - Top up your credits with cryptocurrency
