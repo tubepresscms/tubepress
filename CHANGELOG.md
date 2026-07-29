@@ -2,6 +2,16 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.60 - 2026-07-29
+
+- Remote storage (S3) reliability and diagnostics.
+- Upload failures now report the storage server's own error - SignatureDoesNotMatch, NoSuchBucket, AccessDenied, a connection error and so on - in the import log, the storage health check and Settings -> Storage -> Test. Previously these all showed a generic "Failed to upload ... to storage server" or a bare HTTP code, which made a misconfigured storage very hard to diagnose.
+- Fixed: any file whose name, folder or storage prefix contained a space or a non-ASCII character was never uploaded to S3. Object paths are now percent-encoded in both the request URL and the SigV4 signature. This mainly affected album images and video assets, which keep their original filename.
+- Fixed: the storage prefix was applied when writing objects but ignored when building playback URLs, so on any storage with a prefix the upload succeeded and every file returned 404 on playback.
+- The Storage Test now also performs a 2 MB write through the real upload path and shows the request URL it used. A passing test can no longer hide a failing import, because the test and the import finally exercise the same code.
+- Fixed: the host/port signing fix shipped in 1.0.59 was not applied to the backup plugin, so backups to a storage endpoint with an explicit port kept failing.
+- Hardened: a missing or unreadable local file during an upload now fails cleanly instead of raising a fatal error.
+
 ## 1.0.59 - 2026-07-29
 
 - S3 storage uploads fixed
