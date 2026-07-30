@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.65 - 2026-07-30
+
+- More reliable uploads to S3 storage, and error messages that actually say what happened.
+- Large files are now uploaded in 8 MB pieces instead of 128 MB, matching what the AWS command line tool and the official S3 libraries do. Each piece is confirmed within seconds rather than holding a single connection open for minutes, which is far more forgiving of firewalls, proxies and busy storage servers.
+- A single upload that loses its connection is now retried up to three times before giving up. Previously only multi-part uploads retried, so one dropped connection could lose a preview or a rendition outright. Errors that will not change on a second attempt, such as a rejected key, still fail immediately instead of retrying pointlessly.
+- When an upload does fail, the message now tells you how much of the file actually left your server, out of how much, how long it took and at what speed. That single line usually identifies the cause on its own - whether the file was sent completely and the storage server then went quiet, or whether the connection was cut part way through. If you contact support about a storage problem, copying that one line is now enough.
+
 ## 1.0.64 - 2026-07-30
 
 - Faster and more reliable deletion everywhere, not just for videos.
