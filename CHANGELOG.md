@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.67 - 2026-07-31
+
+- New ad spots can be saved again in every ad zone
+- Creating or editing an ad spot in any zone other than Popup/Popunder failed with a 500 error and saved nothing; it now saves normally.
+- Popunder spots are unchanged: their URL/code mode, delay, frequency cap and time window keep working as before.
+
 ## 1.0.66 - 2026-07-30
 
 - Storage upload errors now say how long the file took to send and how long the storage server then took to answer.
