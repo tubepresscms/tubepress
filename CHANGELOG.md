@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.64 - 2026-07-30
+
+- Faster and more reliable deletion everywhere, not just for videos.
+- Galleries now delete in batches like videos do. Measured on albums of 40 images each: about 600 albums per second, and remote storage is cleaned in one request per thousand files instead of one request per image - deleting 400 galleries went from 16,400 separate storage requests to 17.
+- Deleting a gallery used to leave its comments, reports, likes, view history and statistics behind for ever, because those rows were never removed. They are now cleaned up, which also stops those tables growing without bound.
+- Every bulk delete screen - tags, categories, pornstars, channels, their gallery equivalents, comments, pages and users - now deletes in batches instead of row by row, and reports what was really deleted. Previously the confirmation always showed the number you had selected, even if some or all of them had failed, and a large selection could silently stop half way through when the page ran out of time. If that happens now it tells you how many were left so you can finish the job.
+
 ## 1.0.63 - 2026-07-30
 
 - Bulk video deletion is much faster and more reliable.
