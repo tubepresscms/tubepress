@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.66 - 2026-07-30
+
+- Storage upload errors now say how long the file took to send and how long the storage server then took to answer.
+- When an upload fails, the message separates the two: how many seconds the file spent going out and at what speed, and how many seconds were then spent waiting for the storage server to reply. A slow connection and a slow storage server produce very different numbers there, and they need different fixes. If you report a storage problem, that one line is enough for us to tell them apart.
+
 ## 1.0.65 - 2026-07-30
 
 - More reliable uploads to S3 storage, and error messages that actually say what happened.
