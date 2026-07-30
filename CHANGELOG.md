@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.62 - 2026-07-30
+
+- Large file uploads to S3 storage.
+- Files over 64 MB are now uploaded in parts instead of a single request. This removes the previous 5 GB per-file limit (a hard limit of the storage protocol, not a setting), and lets very large videos - up to several terabytes - be stored.
+- It also makes large uploads far more reliable: each part is confirmed as it goes, and if one part fails it is retried on its own instead of restarting the whole file. Upload speed is unchanged.
+
 ## 1.0.61 - 2026-07-29
 
 - Fixes large video uploads to S3 and other remote storage.
