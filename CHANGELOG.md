@@ -2,6 +2,18 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.63 - 2026-07-30
+
+- Bulk video deletion is much faster and more reliable.
+- Deleting videos in bulk was processing them one at a time, with dozens of database queries per video and, on remote storage, fourteen separate delete requests per video. Videos are now deleted in batches: measured on a 5,000-video library, bulk deletion went from about 13 videos per second to several hundred, and remote storage is cleaned in a single request per batch instead of one per file.
+- The batch size now tunes itself to your server. There is no setting to adjust: each batch is timed and the next one resized accordingly, so a small shared host takes smaller bites and a powerful server takes larger ones.
+- Reliability fixes in the same area:
+- A delete job could report "completed" when a batch had actually failed, leaving videos behind.
+- With two administrators deleting at once, one progress bar could advance the other's job.
+- A fast job could stop after its first batch.
+- Long jobs stopped after ten minutes until an admin page was reopened; they now continue on their own.
+- Deleted videos left rows behind for ever in the view log, the CTR statistics tables and the homepage pool. These are now cleaned up, which also keeps those tables from growing without bound.
+
 ## 1.0.62 - 2026-07-30
 
 - Large file uploads to S3 storage.
