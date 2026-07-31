@@ -2,6 +2,10 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.86 - 2026-07-31
+
+- Galleries you have already imported are now listed last in the catalogue, the way already-imported videos are, so the page opens on what is still available.
+
 ## 1.0.85 - 2026-07-31
 
 - Purchasing galleries now confirms the same way purchasing videos does: a bar above the catalogue saying the imports are being processed, with a button through to the download queue, instead of a spinner on the modal button.
