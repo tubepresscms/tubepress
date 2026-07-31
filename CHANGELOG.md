@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.77 - 2026-07-31
+
+- Select page and Download all now work on the gallery catalogue
+- The bar above the catalogue results hid both of its buttons whenever you were browsing galleries, so bulk selection was only ever available for videos. Both work for galleries now.
+- Select page takes the whole page and leaves out anything you have already imported.
+- Download all appears once you narrow the galleries by source, category, performer, channel, tag or image count, and tells you how many it will take. As with videos it stays hidden on the unfiltered catalogue, so a single click can never buy everything.
+
 ## 1.0.76 - 2026-07-31
 
 - AI translation no longer charges for work it discards, and the front end is far faster at scale
