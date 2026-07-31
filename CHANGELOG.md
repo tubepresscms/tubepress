@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.74 - 2026-07-31
+
+- Robustness pass over the 1.0.73 translation work
+- The one-off repair that removes English written over your translations now claims its run atomically and works in batches. On a 29-language site it used to issue one statement per string per language — 1601 of them inside a single page view, with nothing stopping a second visitor starting the same work. The same repair is now 58 statements and finishes in well under a tenth of a second.
+- A footer configuration in an unexpected shape can no longer take the front page down. Values are checked before use, so a partially written or hand-edited footer setting renders what it can instead of raising an error.
+- Catalogue import: a sidebar section you collapse stays collapsed. It was springing back open every time a filter was cleared or a chip removed.
+- Mobile menu: the language list can no longer run past the bottom of the drawer on a short screen — that area now scrolls.
+
 ## 1.0.73 - 2026-07-31
 
 - Editing your translations no longer replaces them with English
