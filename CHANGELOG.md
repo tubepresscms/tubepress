@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.72 - 2026-07-31
+
+- Translate a single row or a single language, and site visibility moves next to the other indexing controls
+- Every listing row — categories, tags, pornstars, channels (videos and albums), plus videos, albums and pages — now has a small language button beside Edit. It opens the same AI Translate window scoped to that one item, with the same language choice, field choice and price shown before anything is charged.
+- On the page editor, each language tab has its own button: "Translate to FR" translates that language alone, and the default tab opens the full picker for that page.
+- "Discourage search engines from indexing this site" now sits at the top of SEO → Indexing, above the per-page-type list, instead of on the Advanced tab. While it is on, the per-type list is dimmed and explains that the site-wide switch is what applies.
+
 ## 1.0.71 - 2026-07-31
 
 - Search engine visibility stays reachable however old your theme is
