@@ -2,6 +2,10 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.87 - 2026-07-31
+
+- The catalogue no longer lists what this site has already imported, for videos as well as galleries, instead of merely sorting them to the end of the page you were looking at. Whether you own something is decided by this site's own library, so several sites on one account stay independent, moving to another domain changes nothing, and deleting a video or an album puts it back on sale straight away.
+
 ## 1.0.86 - 2026-07-31
 
 - Galleries you have already imported are now listed last in the catalogue, the way already-imported videos are, so the page opens on what is still available.
