@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.71 - 2026-07-31
+
+- Search engine visibility stays reachable however old your theme is
+- "Discourage search engines from indexing this site" moved to SEO → Advanced in 1.0.70, but themes are updated on your own schedule, so an install running an older theme could end up with the setting nowhere at all. Settings now shows it again automatically whenever your theme does not yet provide it, and hides it the moment the theme does.
+- Saving Settings can no longer switch that setting back on or off behind your back.
+
 ## 1.0.70 - 2026-07-31
 
 - AI Translate on every content section, per-language branding, and 404 pages that can no longer be indexed
