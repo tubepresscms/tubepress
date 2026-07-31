@@ -2,6 +2,10 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.81 - 2026-07-31
+
+- Gallery imports now appear in Import > Downloads, next to video downloads. Each gallery is a queue entry with its own status, retried up to three times and left visible with its error if it cannot succeed. An import interrupted by a restart resumes instead of being lost, and a queue with work left restarts its worker by itself. The panel adds Retry failed and Clear finished. Re-importing a gallery you already bought is never charged twice.
+
 ## 1.0.80 - 2026-07-31
 
 - Gallery imports now run in the background. Importing a large selection used to download every image inside the request itself, which held a PHP worker for minutes, left the button stuck on Importing... and, with several attempts running, could exhaust the pool and take the site offline. The request now charges and hands the work to a background worker, reporting real progress. The 25-gallery per-request cap, which silently dropped the rest of a bigger selection, is gone. Clicking beside a modal no longer closes it; use its close button.
