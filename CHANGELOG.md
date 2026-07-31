@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.78 - 2026-07-31
+
+- Updates only lists what you actually have installed
+- Admin → Updates offered marketplace themes and plugins that were never installed on the site, and automatic updates would then install them without being asked. Only extensions present on your site are listed now.
+- Updating an extension can no longer create one: an update for something you do not have is refused. Installing a theme or plugin from the marketplace still works exactly as before.
+
 ## 1.0.77 - 2026-07-31
 
 - Select page and Download all now work on the gallery catalogue
