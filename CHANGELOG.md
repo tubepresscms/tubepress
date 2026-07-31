@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.69 - 2026-07-31
+
+- AI translation for album categories and album tags
+- Album Categories and Album Tags now offer the same AI translation as videos: "Translate All" in the page header, "Translate" on a selected batch, and the same price of 0.5 credits per item covering every language you have enabled.
+- "Skip already translated" only spends credits on entities that are still missing a language, and "Auto-translate new ... as they are added" keeps newly created album categories and tags translated on their own.
+- Album categories reuse the same shared translation dictionary as video categories, so a term you already translated on the video side costs you nothing on the album side.
+- Album pornstars and album channels are deliberately not translated: those are proper names and are left exactly as you entered them.
+
 ## 1.0.68 - 2026-07-31
 
 - Ads no longer stretch the page on phones
