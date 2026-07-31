@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.75 - 2026-07-31
+
+- Galleries you have already imported are marked in the catalogue
+- A gallery you imported stayed in the catalogue looking like one you had never bought. It now appears greyed out with an IMPORTED badge, cannot be selected, and is skipped by Select all — the same treatment the video catalogue already gave imported videos.
+- Your credits were never at risk: the import screen already dropped galleries whose album exists before charging, the import re-checked, and the database enforced it. The protection was there; the indication was not.
+- Re-buying a gallery after deleting its album locally still works and is still charged, as intended.
+
 ## 1.0.74 - 2026-07-31
 
 - Robustness pass over the 1.0.73 translation work
