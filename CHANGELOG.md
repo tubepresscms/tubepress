@@ -2,6 +2,10 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.83 - 2026-07-31
+
+- Fixes a gallery import starting a background process on every refresh of the Downloads page. Reviving an unfinished queue is left to the scheduled task that already does it.
+
 ## 1.0.82 - 2026-07-31
 
 - Gallery imports are now rows of the same queue as video downloads, with the cover, title, live AI badge and the same Cancel, Retry, Edit and Remove buttons, and they are covered by the existing filters, search and counters. AI enhancement chosen at import time now runs on each gallery as soon as its images are in, instead of waiting for the whole batch to finish; on a large import that made it look as though the AI options were being ignored.
