@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.73 - 2026-07-31
+
+- Editing your translations no longer replaces them with English
+- Admin → Languages → Edit translations showed the English text, not your translation, for every string that comes from your theme. Saving the page then stored that English over the translation for good — on a 29-language site that was 56 strings per language, including the whole Albums interface and headings such as TRENDING, WATCH IT AGAIN, More and Powered by. The editor now shows what your site shows, and saving an untouched form changes nothing.
+- Installing this release repairs the entries that were already overwritten. Translations you deliberately customised are kept, including a string you chose to leave in English.
+- Core updates now install the translation files. They have always been inside the update package but were never applied, so a translation fix or a newly translated string could only ever reach a brand-new install.
+- Footer badges and column headings follow the site language again (18+ Only, Free Content, HD Videos, Navigation, Pages, About), and the per-language text saved for a footer logo description is now used. Your own wording is untouched.
+- Catalogue import: every sidebar heading now shows how many values are behind it, and the galleries view opens on Categories instead of a column of empty headings.
+
 ## 1.0.72 - 2026-07-31
 
 - Translate a single row or a single language, and site visibility moves next to the other indexing controls
