@@ -2,6 +2,16 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.70 - 2026-07-31
+
+- AI Translate on every content section, per-language branding, and 404 pages that can no longer be indexed
+- The "AI Translate" button is now on all eleven content sections — Categories, Tags, Pornstars and Channels (for videos and for albums), plus Videos, Albums and Pages. Pick your target languages one by one or all at once, choose which fields to translate, see the exact cost before you start, and run it in the background with pause, resume, stop and retry.
+- You are now charged as the run goes, only for what actually gets translated: anything already translated is skipped free of charge, and stopping a run stops the billing. A run started with a short balance tells you how far it will get and pauses cleanly when it runs out.
+- Pornstar and channel NAMES are never translated — only their biography or description. Proper names are left exactly as you wrote them.
+- Your site name, site description and homepage title / meta description can now differ per language. Set the default in Settings, then translate them in Languages → Edit translations → Branding; anything you leave empty falls back to the default. The translated value is used in the page title, meta description, Open Graph, Twitter card and WebSite structured data.
+- Pages that do not exist now return a real 404 together with "noindex, follow" and a matching X-Robots-Tag, so a missing URL can never be indexed. Sections you switch off answer 410 Gone with the same protection.
+- "Discourage search engines from indexing this site" has moved to SEO → Advanced, next to the other indexing controls, and saving Settings no longer switches it back off.
+
 ## 1.0.69 - 2026-07-31
 
 - AI translation for album categories and album tags
