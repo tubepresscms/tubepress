@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.68 - 2026-07-31
+
+- Ads no longer stretch the page on phones
+- Ad-network banners (728x90 leaderboards, hero billboards, in-feed cards, sidebar and sticky spots) are now scaled down to fit the screen, so the whole ad stays visible on mobile.
+- An ad wider than the screen can no longer widen the page itself: ad slots keep your site's width on every device, and desktop banners still display at their full size.
+
 ## 1.0.67 - 2026-07-31
 
 - New ad spots can be saved again in every ad zone
