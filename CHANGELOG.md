@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.79 - 2026-07-31
+
+- Feed Import keeps its speed as your library grows
+- Importing got slower the more you had already imported: attaching each video to its tags and categories re-counted those tags and categories across the whole library, once per tag, for every row. A feed with 17 tags per video triggered around 21 full recounts per import.
+- Counts are now adjusted by the change instead of recalculated. On a 400,000-video library with a 17-tag feed this took one row from 164 ms to 4.5 ms, and the cost no longer grows with the size of your library.
+
 ## 1.0.78 - 2026-07-31
 
 - Updates only lists what you actually have installed
