@@ -2,6 +2,10 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.80 - 2026-07-31
+
+- Gallery imports now run in the background. Importing a large selection used to download every image inside the request itself, which held a PHP worker for minutes, left the button stuck on Importing... and, with several attempts running, could exhaust the pool and take the site offline. The request now charges and hands the work to a background worker, reporting real progress. The 25-gallery per-request cap, which silently dropped the rest of a bigger selection, is gone. Clicking beside a modal no longer closes it; use its close button.
+
 ## 1.0.79 - 2026-07-31
 
 - Feed Import keeps its speed as your library grows
