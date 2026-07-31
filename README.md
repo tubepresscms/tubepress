@@ -6,28 +6,28 @@
 ![Release](https://img.shields.io/github/v/release/tubepresscms/tubepress?label=latest)
 ![Site languages](https://img.shields.io/badge/site%20languages-30-informational)
 
-**TubePress** is a complete, free CMS for building and running self‑hosted adult tube sites: video management with FFmpeg transcoding, bulk import, memberships, ad zones, SEO tooling and a licensed content catalogue — on a plain PHP + MySQL stack you fully control. No ionCube, no encoded files, no framework, no Node.js build step.
+**TubePress** is a complete, free CMS for building and running self‑hosted adult tube sites: video management with FFmpeg transcoding, bulk import, member accounts, ad zones, SEO tooling and a licensed content catalogue — on a plain PHP + MySQL stack you fully control. No ionCube, no encoded files, no framework, no Node.js build step.
 
 > **Name note:** this project is **not affiliated** with the legacy "TubePress" WordPress/YouTube gallery plugin (tubepress.com, 2006‑era). This TubePress is a standalone, self‑hosted CMS for adult video sites, published at **[tubepress.io](https://tubepress.io)**.
 
-**[Website](https://tubepress.io)** · **[Live demo](https://demo.tubepress.io)** · **[Download](https://tubepress.io/download)** · **[Documentation](https://tubepress.io/documentation)** · **[Guides](https://tubepress.io/guides)** · **[Compare](https://tubepress.io/compare)** · **[Changelog](https://tubepress.io/changelog)**
+**[Website](https://tubepress.io)** · **[Simply demo](https://simply.tubepress.io)** · **[Hentai Noir demo](https://hentai.tubepress.io)** · **[Download](https://tubepress.io/download)** · **[Documentation](https://tubepress.io/documentation)** · **[Guides](https://tubepress.io/guides)** · **[Compare](https://tubepress.io/compare)** · **[Changelog](https://tubepress.io/changelog)**
 
 ![TubePress demo](assets/screenshot-hero.webp)
 
 ## Why TubePress
 
 - **Video pipeline built in** — FFmpeg transcoding with admin‑defined formats and renditions, poster thumbnails, animated hover previews, optional watermark and intro burn‑ins, multi‑server storage.
-- **Licensed content catalogue** — over a million licensed items (540k+ videos, 560k+ photo galleries) available for one‑click, per‑item import, so a new site is never empty.
+- **Licensed content catalogue** — over 1.5 million licensed items (950k+ videos, 565k+ photo galleries) available for one‑click, per‑item import, so a new site is never empty.
 - **Bulk import** — CSV/JSON feeds with mapping, scheduling and safe re‑runs.
 - **Ad system built in** — dozens of placement zones across pages and player (VAST‑compatible video slots), managed from the admin.
 - **Member accounts** — registration, favorites, watch history and comments: the audience layer, on your own domain.
 - **Native CTR ranking** — impressions and clicks measured per video and fed back into listing order; no external recommendation service required.
 - **SEO by default** — VideoObject / BreadcrumbList schema, XML sitemaps, hreflang, clean canonical URLs, server‑rendered HTML.
-- **Multilingual** — 30 interface languages shipped; per‑entity translation tooling, with optional AI translation for tags and categories.
+- **Multilingual** — 30 interface languages shipped; per‑entity translation tooling, with optional AI translation for video and album categories and tags.
 - **Photo galleries & albums** — first‑class image content type alongside video.
 - **Compliance tooling** — Age Gate plugin (multiple modes, RTA labeling), per‑video reporting with a moderation queue, editable legal pages, role‑based admin/moderator accounts.
-- **Themes & plugins** — theme API and plugin system, with readable PHP throughout.
-- **Optional AI add‑ons** — credit‑priced descriptions and metadata translation on top of the free core.
+- **Themes & plugins** — two themes ship (Simply and Hentai Noir) and every marketplace plugin is free; theme API and plugin system, with readable PHP throughout.
+- **Optional AI add‑ons** — credit‑priced descriptions, title/description rewriting and entity translation on top of the free core; top up by card or cryptocurrency.
 - **Self‑hosted, portable, yours** — plain PHP 8.2+ and MySQL/MariaDB; install with a 5‑step web wizard in about five minutes.
 
 ## Requirements
@@ -52,12 +52,12 @@ Full walkthrough: [documentation](https://tubepress.io/documentation) · [how to
 ## Pricing & license
 
 - The **core CMS is free**, for unlimited sites of your own — no trials, no feature gates, no per‑domain fees.
-- Optional paid add‑ons (premium theme, AI features, licensed catalogue credits) are sold on the [marketplace](https://tubepress.io).
+- **Every marketplace plugin and theme is free too** — Age Gate, Backup Pro, CTR Ranking, Simply and Hentai Noir, at no cost. Only the licensed catalogue and the AI features are credit‑priced; credits are topped up by card or cryptocurrency.
 - TubePress is **source‑available, not open‑source**: the PHP you deploy is fully readable and auditable, but the software remains proprietary and may not be redistributed or resold. See [LICENSE](LICENSE.md) and the [terms](https://tubepress.io/terms).
 
 ## FAQ
 
-**Is it really free?** Yes — the full core, for your own sites, without limits on videos or domains. Paid items are optional add‑ons.
+**Is it really free?** Yes — the full core, for your own sites, without limits on videos or domains. Plugins and themes are free as well; only catalogue imports and AI features consume credits.
 
 **Is it open source?** No. The code is readable PHP (no ionCube, nothing encoded), which is why we say *source‑available* — but it is proprietary software, not OSI open source, and this repository is a publishing mirror rather than a development tree.
 
