@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.76 - 2026-07-31
+
+- AI translation no longer charges for work it discards, and the front end is far faster at scale
+- A translation batch that could not finish inside one worker pass was charged in full, sent only in part, and then counted as done — the job moved on and never came back to those videos, which is how a run could report Completed with nothing failed while most translations were missing. A batch now keeps its place and resumes until it is genuinely finished.
+- Resuming a batch can no longer be charged twice. The charge is now tied to the exact items it covers, and each job records what it has already paid for, so retrying, resuming or recovering from an interruption costs nothing extra.
+- The credits shown against a job now match what was actually taken, and the translated counter counts videos rather than passes. A job reports Completed only when every item really is translated; anything that failed is counted as failed.
+- Large libraries: the home page now issues 12 queries instead of 60, and pages that were dominated by counting videos no longer are. Measured on a one-million-video database with no caching: 498 ms down to 11 ms. Category and tag pages get the same treatment. Nothing is cached and no total is approximated on a normal-sized site.
+
 ## 1.0.75 - 2026-07-31
 
 - Galleries you have already imported are marked in the catalogue
