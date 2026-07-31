@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.89 - 2026-08-01
+
+- Catalogue downloads start again after updating to 1.0.88
+- Fixes a regression in 1.0.88 where a purchased catalogue download could stay at pending with no attempts, no error and no worker running, on servers where the worker slot file could not be created. Downloads start normally again.
+- If no download worker can be started at all, the queue now falls back to the exec-less workers instead of stalling.
+- A worker slot whose recorded process id had been reused by an unrelated process no longer blocks the queue permanently.
+
 ## 1.0.88 - 2026-07-31
 
 - Multilingual video sitemaps and stuck catalogue downloads
