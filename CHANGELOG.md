@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.88 - 2026-07-31
+
+- Multilingual video sitemaps and stuck catalogue downloads
+- Video sitemaps now include hreflang alternate links and one entry per language when "Include hreflang alternates" is enabled, matching the categories, tags, performers, channels, albums and pages sitemaps.
+- A catalogue download could stay in the queue forever, with no attempts and no error recorded, on servers where the site timezone and the database timezone differ. Downloads now retry on schedule, and any download already stuck is released when you update.
+- Several catalogue workers could start for the same queue slot when downloads were triggered from more than one place at once. Only one worker now starts per slot.
+
 ## 1.0.87 - 2026-07-31
 
 - The catalogue no longer lists what this site has already imported, for videos as well as galleries, instead of merely sorting them to the end of the page you were looking at. Whether you own something is decided by this site's own library, so several sites on one account stay independent, moving to another domain changes nothing, and deleting a video or an album puts it back on sale straight away.
