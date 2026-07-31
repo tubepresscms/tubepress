@@ -2,6 +2,10 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.85 - 2026-07-31
+
+- Purchasing galleries now confirms the same way purchasing videos does: a bar above the catalogue saying the imports are being processed, with a button through to the download queue, instead of a spinner on the modal button.
+
 ## 1.0.84 - 2026-07-31
 
 - The Parallel setting on the Downloads page now applies to gallery imports as well as video downloads; choosing 2 or 3 previously changed nothing for galleries. The queue banner and result count no longer say videos when what is queued is galleries.
