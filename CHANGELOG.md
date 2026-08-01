@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.92 - 2026-08-01
+
+- Slug field is saved, Load more works on every theme
+- The Slug field on videos, categories, tags, pornstars, channels and albums is now saved exactly as you type it — and a page you simply re-save keeps its URL instead of silently changing it. Leave the field empty and it is still generated from the title, as before.
+- Load more under the recommended videos now works on every theme, not only Simply.
+- Pages no longer return a server error when a crawler adds a malformed parameter to the URL.
+- AI translation jobs no longer stop with an internal error when they run in the background.
+
 ## 1.0.91 - 2026-08-01
 
 - Galleries you already paid for are never charged again
