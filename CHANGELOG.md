@@ -2,6 +2,10 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.90 - 2026-08-01
+
+- AI Translate now covers names, not only biographies and descriptions. Performers, album performers, channels and album channels gain a Name field: the name is written in the reader's own script (Arabic, Cyrillic, Chinese and so on) and returned unchanged for languages using the Latin alphabet. Translating a name also rebuilds that language's URL slug, and both are used on the site immediately. Text you have already translated is kept and is not billed again.
+
 ## 1.0.89 - 2026-08-01
 
 - Catalogue downloads start again after updating to 1.0.88
