@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.94 - 2026-08-01
+
+- Intro and outro clips no longer break the video timeline
+- Videos with an intro or outro attached are now joined using the same frame rate, time base and audio settings as the video itself, so playback no longer stalls or buffers once the intro ends.
+- The finished file is checked before it replaces the original: if its timeline or stream durations come out malformed, the original video is kept instead.
+
 ## 1.0.93 - 2026-08-01
 
 - Gallery imports now start on their own on every host
