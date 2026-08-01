@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.93 - 2026-08-01
+
+- Gallery imports now start on their own on every host
+- Fixes catalogue gallery purchases that stayed at pending forever, with no attempts and no error, on servers where a background worker process cannot be started. Galleries now use the same exec-less worker the video queue has, so the queue drains without any manual step, cron or heartbeat.
+- The importer now checks that a worker really started instead of assuming it did, and falls back automatically when it did not.
+- PHP command-line binaries installed by cPanel and CloudLinux are now detected, so servers using those layouts can start workers normally.
+
 ## 1.0.92 - 2026-08-01
 
 - Slug field is saved, Load more works on every theme
