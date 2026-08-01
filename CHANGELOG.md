@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.91 - 2026-08-01
+
+- Galleries you already paid for are never charged again
+- Fixes a defect where selecting a catalogue gallery whose import had not finished, or had failed, charged your credits a second time. The purchase check now recognises a gallery that is already paid for and waiting in the import queue, and retrying a failed gallery import costs nothing.
+- Deleting an ad spot reported success even when the delete was rejected, for example after a session or security token had expired. The real result is now shown instead.
+
 ## 1.0.90 - 2026-08-01
 
 - AI Translate now covers names, not only biographies and descriptions. Performers, album performers, channels and album channels gain a Name field: the name is written in the reader's own script (Arabic, Cyrillic, Chinese and so on) and returned unchanged for languages using the Latin alphabet. Translating a name also rebuilds that language's URL slug, and both are used on the site immediately. Text you have already translated is kept and is not billed again.
