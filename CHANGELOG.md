@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.95 - 2026-08-02
+
+- Transcoding Queue stays live while you watch it
+- The queue counters, the active-jobs pill and the Queue tab badge now refresh on their own instead of staying frozen until you reload the page.
+- Auto-refresh also starts when you open the Queue while it is empty, so newly queued videos appear without a manual refresh.
+- Refresh failures are now reported in the browser console instead of being silently ignored.
+
 ## 1.0.94 - 2026-08-01
 
 - Intro and outro clips no longer break the video timeline
