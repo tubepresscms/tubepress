@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.96 - 2026-08-02
+
+- TubePress 1.0.96
+- Fix: admin panel showed a fatal "Call to undefined function shell_exec()" error on every page when the host's disable_functions restricted shell_exec (e.g. a PHP-FPM pool with disable_functions = exec,passthru,shell_exec,system). The admin's server-health widget now degrades gracefully instead of crashing, matching how it already handles a missing sys_getloadavg(). No functional change to background tasks: the heartbeat and task scheduler only ever require exec(), never shell_exec/passthru/system.
+
 ## 1.0.95 - 2026-08-02
 
 - Transcoding Queue stays live while you watch it
