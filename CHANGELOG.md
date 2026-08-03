@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.97 - 2026-08-03
+
+- Large album sitemaps no longer exceed Google's 50 MB limit
+- Album, category, tag, performer and channel sitemaps are now split into several files when they would grow past Google's size limit, and every part is listed in the sitemap index.
+- The split now accounts for hreflang alternates, so multilingual sites no longer produce oversized sitemap files that Search Console rejects.
+- Existing sitemap URLs keep working — an entity that still fits in a single file keeps its current filename.
+
 ## 1.0.96 - 2026-08-02
 
 - TubePress 1.0.96
