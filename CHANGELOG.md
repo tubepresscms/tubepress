@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.98 - 2026-08-03
+
+- No more empty pages in the catalogue browser
+- Import → Catalogue no longer discards galleries and videos you have already imported after a page has loaded, so pages are never left empty or half full.
+- Items already in your library stay visible, greyed out and marked IMPORTED, and cannot be selected by mistake.
+- The result count and the number of pages now match exactly what the browser shows.
+
 ## 1.0.97 - 2026-08-03
 
 - Large album sitemaps no longer exceed Google's 50 MB limit
