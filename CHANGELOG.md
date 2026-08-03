@@ -2,6 +2,16 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.0 - 2026-08-03
+
+- Sitemaps now follow every control on the SEO page.
+- Max URLs per file (SEO -> Sitemap) works again. In 1.0.99 the field had no effect; it is now applied as an extra cap on top of Google's own limits, so it can only make files smaller.
+- The Categories / Tags / Pornstars / Channels / Albums index pages added in 1.0.99 now respect the matching checkboxes. Unchecking a type removes both its sitemap file and its index page; the home page follows the Pages checkbox.
+- A content type set to noindex (SEO -> Indexing) is no longer listed in the sitemap. Submitting a page you have asked Google not to index is reported as an error in Search Console. The Categories/Tags/Pornstars/Channels index pages stay listed, because the noindex option only applies to the individual pages - Albums is the exception, where the option covers the index page too.
+- Turning on "Discourage search engines" now also empties the sitemaps, not just robots.txt.
+- Themes (simply 1.0.25, hentai 1.0.12).
+- SEO -> Robots showed an example robots.txt that was out of date: it still blocked /embed/ and paginated pages, which 1.0.99 deliberately stopped blocking. Copying it into the custom box would have silently re-blocked the embed player Google needs to crawl in order to index your videos. The example now always matches what your site actually serves. Themes are not updated by a core update - install these from Admin -> Themes to get the corrected example.
+
 ## 1.0.99 - 2026-08-03
 
 - Sitemaps — rebuilt for search engines.
