@@ -2,6 +2,21 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.0.99 - 2026-08-03
+
+- Sitemaps — rebuilt for search engines.
+- Sitemap files can no longer exceed Google's limits (50,000 URLs / 50 MB uncompressed). On a site with many tags and several languages enabled, the tag sitemap could grow past 50 MB and be rejected by Google in full; the generator now measures what it writes and splits automatically.
+- Languages that have no translated slug for an item no longer produce broken URLs in the sitemap (previously these were emitted with an empty slug and also poisoned the hreflang links).
+- Each sitemap file now reports its own accurate last-modified date instead of one shared date for the whole content type.
+- New sitemap-hubs.xml: the Categories, Tags, Pornstars, Channels and Albums index pages, the video listing pages (New, Top rated, Most viewed, Most favorited) and the home page — in every enabled language. None of these were listed before.
+- Video entries are now correct on installs using remote storage or a CDN: thumbnails and video file URLs were malformed or missing, which made those entries invalid for Google Video.
+- robots.txt no longer blocks /embed/ — Google must be able to crawl the embed player to index a video. The player page itself stays noindex.
+- robots.txt now also protects the login, register, profile, search and account pages in every language (only the default language was covered), and no longer blocks paginated pages.
+- Sitemap files are no longer sent gzip-encoded to clients that did not ask for it.
+- On large libraries, sitemap generation is now spread over several background runs instead of doing everything in one request.
+- Import → Catalogue — galleries.
+- Galleries you have already imported are now moved to the END of the listing instead of filling the first pages, which is how the video catalogue already behaved. Nothing is hidden: the totals and page count stay exact and every gallery remains reachable.
+
 ## 1.0.98 - 2026-08-03
 
 - No more empty pages in the catalogue browser
