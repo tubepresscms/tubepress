@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.1 - 2026-08-06
+
+- Large catalogue videos now download without timing out
+- Catalogue video downloads are no longer cut off after 10 minutes. A transfer is now only abandoned when it genuinely stalls, so large files can take as long as they need.
+- An interrupted download resumes from the bytes already received instead of starting over, so a brief network problem no longer wastes the whole transfer.
+- Videos previously marked as failed can be requeued with "Retry all failed" in the Download Queue after updating.
+
 ## 1.1.0 - 2026-08-03
 
 - Sitemaps now follow every control on the SEO page.
