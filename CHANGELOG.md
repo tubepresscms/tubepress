@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.2 - 2026-08-06
+
+- See real progress while a video uploads
+- The New Video page now shows a live progress bar with the percentage, the uploaded size against the total, the current upload speed and the estimated time remaining.
+- The upload reports the stage it has reached — Uploading, then Processing while the server saves the file, then Completed.
+- An upload in progress can be cancelled, and the page warns you before you navigate away from one.
+- A file larger than the server accepts is refused straight away, showing both sizes, instead of failing after a long upload.
+
 ## 1.1.1 - 2026-08-06
 
 - Large catalogue videos now download without timing out
