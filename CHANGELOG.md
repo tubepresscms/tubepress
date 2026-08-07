@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.3 - 2026-08-07
+
+- Translated tags no longer appear twice on the same page
+- When several tags translate to the same name in your language, that name is now shown once — on the video page, on album pages and in the Tags listing.
+- Nothing is merged behind the scenes: every tag keeps its own id, its own localized address and its own videos, and each one is still reachable at its own URL.
+- The tag kept on screen is the one with the most videos, so the link always points to the fullest page.
+
 ## 1.1.2 - 2026-08-06
 
 - See real progress while a video uploads
