@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.5 - 2026-08-07
+
+- Catalogue imports no longer stall when the AI pass fails
+- An import whose AI title or description step kept failing retried forever and never produced the video, leaving the job stuck between downloading and rewriting. The AI pass now stops after its retries, is marked Failed with the error kept on the job, and the video is imported with its original title.
+- Fixed the built-in AI prompts used when the prompt service cannot be reached: they asked for plain text while the importer expected tagged output, so every attempt failed.
+- Server Health: "Pseudo-cron (last run)" always reported Never, even on sites whose background tasks were running normally. It now reports the real last run.
+
 ## 1.1.4 - 2026-08-07
 
 - Importing now keeps your original files by default
