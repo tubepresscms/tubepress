@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.4 - 2026-08-07
+
+- Importing now keeps your original files by default
+- The catalogue import panel opens on "Keep originals only": videos are imported as they are, with no conversion, no extra disk use and nothing queued for transcoding.
+- "Stream smoothly" and "Shrink to save space" are unchanged and remain one click away.
+- The "Recommended" badge has been removed, so the panel no longer pushes one outcome over the one it preselects.
+
 ## 1.1.3 - 2026-08-07
 
 - Translated tags no longer appear twice on the same page
