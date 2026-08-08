@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.11 - 2026-08-08
+
+- GPU transcoding now completes on NVIDIA, AMD, Intel and Apple conversion workers
+- The worker's GPU command dropped the output pixel format, so a source that was not already 8-bit 4:2:0 (10-bit HEVC, 4:2:2 footage) was handed to the GPU encoder in a format it cannot accept and the encode was refused.
+- When a GPU encode was refused the worker retried on CPU, produced a valid file, then still reported the job as failed and discarded it. Those jobs now complete.
+- The CPU retry now uses the quality settings configured for that format instead of a fixed fallback, so the fallback rendition matches the one you set up.
+- The worker console and the job error message now carry FFmpeg's own reason when a GPU encode is refused.
+- After updating, re-download transcode-worker.php from Settings > Transcoding > Servers and restart your worker: that script runs on your own conversion server, so a CMS update alone does not update it.
+
 ## 1.1.10 - 2026-08-08
 
 - GPU encoding now works on transcode workers
