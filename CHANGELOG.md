@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.9 - 2026-08-08
+
+- Signed media links no longer break on S3 storage with a prefix
+- When a storage uses an S3 prefix together with Secure URLs, video, album and thumbnail links were redirected to an address without that prefix and returned "not found"; signed links now point at the real file. Storages without a prefix, and local, FTP and WebDAV storages, are unchanged.
+
 ## 1.1.8 - 2026-08-08
 
 - Credits come back when an AI translation fails
