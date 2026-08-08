@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.7 - 2026-08-08
+
+- Related videos no longer scan the whole library
+- The related-videos block on the watch page scored candidates by joining every published video and discarding the non-matching ones afterwards, so its cost grew with the size of the library and forced an on-disk temporary table on every view. Busy sites with large libraries could saturate MySQL from watch-page traffic alone.
+- Scores now come from the category and tag indexes, and only the videos actually displayed are loaded. Measured on a 100,000-video library: 1,150 ms to 90 ms per watch page.
+- The related-galleries block on album pages had the same defect and is fixed the same way.
+- Ranking, ordering and the number of items shown are unchanged, and there is no database migration.
+
 ## 1.1.5 - 2026-08-07
 
 - Catalogue imports no longer stall when the AI pass fails
