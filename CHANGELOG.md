@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.8 - 2026-08-08
+
+- Credits come back when an AI translation fails
+- AI Translate now returns the credits for anything a translation job was charged for but never delivered — a job that fails, that you stop, or that the AI service could not complete refunds what it did not produce, on its own.
+- Translations you did receive are never refunded, each charge is refunded once and never more than it cost, and running Retry failed after a refund is charged again.
+- The job summary now shows how much went back next to how much was used.
+- Includes the 1.1.7 related-videos fix.
+
 ## 1.1.7 - 2026-08-08
 
 - Related videos no longer scan the whole library
