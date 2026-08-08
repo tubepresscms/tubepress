@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.10 - 2026-08-08
+
+- GPU encoding now works on transcode workers
+- The transcode worker now correctly detects NVIDIA NVENC, AMD AMF, Intel QSV and Apple VideoToolbox instead of silently encoding everything on the CPU: the test clip it used to check the encoder was smaller than the minimum frame size NVENC accepts, so the check failed even on a perfectly working GPU.
+- A working GPU is no longer rejected just because FFmpeg printed a harmless warning while that check ran.
+- When an encoder genuinely is unavailable, the worker now prints FFmpeg's own reason for it instead of a bare "not functional".
+- After updating, re-download transcode-worker.php from Settings → Transcoding → Servers and restart your worker so it picks up this fix.
+
 ## 1.1.9 - 2026-08-08
 
 - Signed media links no longer break on S3 storage with a prefix
