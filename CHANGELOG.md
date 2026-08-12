@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.12 - 2026-08-12
+
+- Faster category, pornstar and channel thumbnails
+- Listing pages no longer rank an entity's entire video library to pick its cover image, so the header menu, the home page and the category, pornstar and channel listings load far faster on large sites.
+- The thumbnails chosen are unchanged - only the work needed to find them is.
+
 ## 1.1.11 - 2026-08-08
 
 - GPU transcoding now completes on NVIDIA, AMD, Intel and Apple conversion workers
