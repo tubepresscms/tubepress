@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.13 - 2026-08-15
+
+- Dashboard Views Trend now keeps a real 30-day history
+- Daily view totals are recorded as views are counted, so Today, Avg/day, Peak, 30d total and the 30-day chart no longer drop during the day.
+- The view de-duplication log keeps its short retention, so the fix adds no meaningful database growth.
+- The 30-day history builds forward from this update; days before it show no data.
+
 ## 1.1.12 - 2026-08-12
 
 - Faster category, pornstar and channel thumbnails
