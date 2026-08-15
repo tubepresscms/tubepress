@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.14 - 2026-08-16
+
+- Cost calculator now quotes your real credit rate
+- The import cost calculator converted credits to dollars at a fixed rate and named a credit pack that is no longer offered. It now reads the live rate from your account, so its dollar estimate matches what you are charged and follows any price change automatically.
+
 ## 1.1.13 - 2026-08-15
 
 - Dashboard Views Trend now keeps a real 30-day history
