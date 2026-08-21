@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.15 - 2026-08-21
+
+- Public pages no longer fail with a database collation error
+- On servers where the database connection collation differs from the character set default, the ad scheduling filter compared dates as text and the database refused the comparison (error 1267 Illegal mix of collations), which returned Something went wrong on every public page, even with no ad spots configured.
+- Ad scheduling now compares real date and time values, so start and end windows behave exactly as before on every server.
+
 ## 1.1.14 - 2026-08-16
 
 - Cost calculator now quotes your real credit rate
