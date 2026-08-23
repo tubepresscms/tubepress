@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.17 - 2026-08-23
+
+- Multilingual SEO: non-canonical slug aliases now redirect
+- In a non-default language, reaching an entity by its base (untranslated) slug returned 200 with a canonical pointing at the translated URL. That alias now returns 301 to the canonical translated URL, so the duplicate consolidates instead of competing.
+- Applies to /video, /category, /tag, /pornstar, /channel, /album and the four album taxonomy routes; the query string (pagination, sort) is preserved.
+- Matches the behaviour the /videos/... listing routes already had. The default language, pages with no translated slug, and /embed/ URLs are unchanged.
+
 ## 1.1.16 - 2026-08-23
 
 - Multilingual SEO: consistent language-root URLs
