@@ -2,6 +2,16 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.18 - 2026-08-23
+
+- Hide taxonomy pages that have too little on them
+- Admin → SEO → Indexing now carries a "Minimum items required to index a taxonomy page" setting. Under that number a category, tag, pornstar, channel or album-taxonomy page is still served normally to visitors and keeps every internal link, but it is marked noindex, follow and left out of your sitemap, so search engines spend their crawl budget on your videos and albums instead.
+- A page becomes indexable again and returns to the sitemap on its own as soon as it reaches the number. Nothing is stored per page and nothing has to be switched back by hand.
+- An option keeps any category, pornstar or channel carrying at least 50 characters of its own description indexable even under the number, because that text is content in its own right. It is read from your default language, so a page can never be indexable in one language and withheld in another. Tags have no description field and always follow the number.
+- Before you save, the panel shows live from your own database how many pages each taxonomy type would hide.
+- The setting ships switched off, so an install that updates and changes nothing renders and generates exactly what it did before.
+- Also fixed: on an install whose theme does not provide the SEO page, the "Discourage search engines from indexing this site" box in Settings → Branding always displayed as unticked whatever the stored value was, so saving that page could silently make a hidden site visible to search engines again.
+
 ## 1.1.17 - 2026-08-23
 
 - Multilingual SEO: non-canonical slug aliases now redirect
