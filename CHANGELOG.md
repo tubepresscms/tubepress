@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.19 - 2026-08-23
+
+- Help Center now covers the taxonomy indexing threshold
+- The in-admin Help Center still described only the older whole-type noindex switches. Its "noindex thin pages", "Sitemap" and "Tags" articles now explain the per-page "Minimum items required to index a taxonomy page" setting introduced in 1.1.18 — what it does to the page and to the sitemap, that it reverts on its own once a page grows, and that the panel counts the effect live before you save. Searching the Help Center for "threshold", "minimum items" or "discovered not indexed" now finds it.
+
 ## 1.1.18 - 2026-08-23
 
 - Hide taxonomy pages that have too little on them
