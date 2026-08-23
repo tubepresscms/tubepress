@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.16 - 2026-08-23
+
+- Multilingual SEO: consistent language-root URLs
+- A language home page now emits the same slashless URL in its hreflang tags, og:url and language-switcher links as in its canonical (https://example.com/pl, not https://example.com/pl/). The self-referencing hreflang no longer contradicts the canonical.
+- The sitemap advertises the same slashless language roots, so Search Console stops reporting them as alternates pointing to a different canonical.
+- The default-language root keeps its bare slash (https://example.com/), and secondary video-type roots (/gay, /hentai) follow the same rule.
+
 ## 1.1.15 - 2026-08-21
 
 - Public pages no longer fail with a database collation error
