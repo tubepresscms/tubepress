@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.20 - 2026-08-28
+
+- Long transcodes no longer restart from the beginning
+- Large 2160p/4K jobs are now watched by their actual encoding progress instead of a fixed time limit, so a video that needs 3, 4 or 6 hours finishes instead of being reset to 0% and re-queued after about two hours.
+- A job that has genuinely stopped responding is still recovered just as quickly, and remote conversion servers are covered by the same change.
+- Intro/outro assembly and preview-timeline generation now report progress while they run, so long videos are no longer interrupted during those steps.
+
 ## 1.1.19 - 2026-08-23
 
 - Help Center now covers the taxonomy indexing threshold
