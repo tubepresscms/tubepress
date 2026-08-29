@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.21 - 2026-08-29
+
+- Missing ad zones restored on the Advertising page
+- The Player, Homepage, Categories and Performers tabs in Admin → Advertising were empty on new installs because their ad zones were never created. They are now, so VAST pre-roll / mid-roll / post-roll, the pause ad and the player popunder can be set up again.
+- The In-Player Ads zone now appears under the Player tab instead of Watch Page, and the Interstitial, In-Page Push, Before Comments, Between Related Videos and Top of Listings zones are back.
+- Existing zones and ad spots are untouched by the update.
+
 ## 1.1.20 - 2026-08-28
 
 - Long transcodes no longer restart from the beginning
