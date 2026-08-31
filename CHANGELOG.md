@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.25 - 2026-08-31
+
+- The custom top-up amount can be paid again
+- Typing your own amount in the top-up window and pressing Continue now opens the payment step. The button did nothing at all before, so only the four fixed credit packs could be bought.
+
 ## 1.1.24 - 2026-08-31
 
 - Fixes the unstyled admin some sites saw after updating to 1.1.23
