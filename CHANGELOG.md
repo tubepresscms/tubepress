@@ -2,6 +2,18 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.23 - 2026-08-31
+
+- Admin panel: 4.5x faster to load, and no longer depends on any third-party CDN
+- The admin stylesheet is now compiled and shipped with the release. It used to be generated inside your browser on every page load by the Tailwind Play CDN — a 407 KB compiler that re-ran on every DOM change. On the Import screen this cut DOMContentLoaded from 1250 ms to 277 ms and JavaScript CPU time from 251 ms to 14 ms, measured on the same machine.
+- About 440 KB of admin JavaScript (Import, help panel, support bubble, marketplace) now loads from cacheable files instead of being inlined into every page, so your browser downloads and parses it once instead of on every navigation. The Import page's HTML dropped from 664 KB to 415 KB.
+- Country flags are served from your own install — the admin no longer loads anything from a third-party CDN.
+- Catalogue thumbnails are cached on your server. Opening the Import screen used to re-download every thumbnail through PHP on every visit.
+- Admin background requests no longer hold the PHP session lock while they contact tubepress.io. One slow call used to block every other admin request behind it — most visibly, the admin froze while an import job was running.
+- Catalogue pricing refreshes in the background instead of delaying the Import page.
+- The video preview player is downloaded only when you open a preview.
+- The updater now installs new admin asset folders, which previously only arrived with a fresh install.
+
 ## 1.1.22 - 2026-08-31
 
 - Buy credits with any amount, and see the free credits you get
