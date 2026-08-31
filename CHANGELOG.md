@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.22 - 2026-08-31
+
+- Buy credits with any amount, and see the free credits you get
+- The Top Up panel now shows what each pack really gives you: the credits you pay for, the credits offered on top, and the bonus percentage.
+- You can now enter any amount instead of picking a pack. The free credits are applied automatically on the same scale as the packs, so an amount matching a pack's price gives you exactly what that pack gives.
+- The credits are recalculated as you type, and the order summary tells you how many of them are free before you pay.
+
 ## 1.1.21 - 2026-08-29
 
 - Missing ad zones restored on the Advertising page
