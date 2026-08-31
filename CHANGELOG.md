@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.24 - 2026-08-31
+
+- Fixes the unstyled admin some sites saw after updating to 1.1.23
+- If you updated to 1.1.23 and your admin panel lost all its styling, install this update — it restores it. Nothing else on your site was affected.
+- Cause: 1.1.23 placed the new compiled stylesheet and scripts in a folder that the updater already running on your site does not install. The files were in the package but never reached your server, so the stylesheet returned 404.
+- They now ship in a location every version of the updater has always installed, and which your web server serves directly. Verified end to end on a real install.
+- All the 1.1.23 performance work is unchanged and still applies.
+
 ## 1.1.23 - 2026-08-31
 
 - Admin panel: 4.5x faster to load, and no longer depends on any third-party CDN
