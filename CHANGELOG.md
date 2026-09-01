@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.26 - 2026-09-01
+
+- Imported catalogue videos no longer reappear for sale after you clear the download queue
+- Fixed: clearing the download queue in Import → Catalogue (Clear finished, delete entry, delete batch) made every already-imported video lose its IMPORTED badge and come back as available stock. Because the catalogue charges again for a video you already own, that housekeeping action could lead to paying twice for the same video.
+- A video's imported state is now read from the video itself, the same way imported galleries have always worked, instead of only from the download queue rows.
+- Self-healing: if your queue was already cleared, the IMPORTED badges come back as soon as you update — nothing to re-import and nothing to reconfigure.
+- Purchases still in progress continue to count as imported, and deleting a video locally still puts it back on sale as before.
+
 ## 1.1.25 - 2026-08-31
 
 - The custom top-up amount can be paid again
