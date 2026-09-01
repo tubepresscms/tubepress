@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.27 - 2026-09-01
+
+- Fixes the silent no-op core update introduced by 1.1.26.
+- 1.1.26 was packaged with config/app.php still declaring APP_VERSION 1.1.25. Because that file is replaced by every core update, applying 1.1.26 succeeded but left the install reporting 1.1.25.
+- Admin -> Updates therefore kept showing the old version and kept re-offering the same update, with no error message and nothing recorded in the update log — the update appeared to do nothing.
+- 1.1.27 restores the version constant. Installs on 1.1.25, and installs that already applied 1.1.26, both converge here. No database migration is required.
+- No functional change: the catalogue ownership fix shipped in 1.1.26 is unaffected and remains in place.
+
 ## 1.1.26 - 2026-09-01
 
 - Imported catalogue videos no longer reappear for sale after you clear the download queue
