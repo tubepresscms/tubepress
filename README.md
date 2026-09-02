@@ -18,8 +18,8 @@
 
 - **Video pipeline built in** — FFmpeg transcoding with admin‑defined formats and renditions, poster thumbnails, animated hover previews, optional watermark and intro burn‑ins, multi‑server storage.
 - **Licensed content catalogue** — over 1.5 million licensed items (950k+ videos, 565k+ photo galleries) available for one‑click, per‑item import, so a new site is never empty.
-- **Bulk import** — CSV/JSON feeds with mapping, scheduling and safe re‑runs.
-- **Ad system built in** — dozens of placement zones across pages and player (VAST‑compatible video slots), managed from the admin.
+- **Bulk import & upload** — CSV/JSON feeds with mapping, scheduling and safe re‑runs, plus a drag‑and‑drop bulk uploader that turns any number of local video files into videos in one go (titles, thumbnails and durations filled in automatically).
+- **Ad system built in** — dozens of placement zones across pages and player (VAST‑compatible pre/mid/post‑roll slots and on‑pause banners), managed from the admin.
 - **Member accounts** — registration, favorites, watch history and comments: the audience layer, on your own domain.
 - **Native CTR ranking** — impressions and clicks measured per video and fed back into listing order; no external recommendation service required.
 - **SEO by default** — VideoObject / BreadcrumbList schema, XML sitemaps, hreflang, clean canonical URLs, server‑rendered HTML.
@@ -61,7 +61,7 @@ Full walkthrough: [documentation](https://tubepress.io/documentation) · [how to
 
 **Is it open source?** No. The code is readable PHP (no ionCube, nothing encoded), which is why we say *source‑available* — but it is proprietary software, not OSI open source, and this repository is a publishing mirror rather than a development tree.
 
-**Does it come with content?** Optionally: the built‑in catalogue offers licensed videos and galleries for per‑item import. Bring‑your‑own‑content workflows (uploads, feeds, sponsors) are fully supported — see [where to get content](https://tubepress.io/guides/get-content-for-tube-site).
+**Does it come with content?** Optionally: the built‑in catalogue offers licensed videos and galleries for per‑item import. Bring‑your‑own‑content workflows (single or bulk uploads, feeds, sponsors) are fully supported — see [where to get content](https://tubepress.io/guides/get-content-for-tube-site).
 
 ## Contributing & support
 
