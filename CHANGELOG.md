@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.29 - 2026-09-02
+
+- VAST tags on the Pause Ad placement
+- The Pause Ad placement now accepts a VAST tag URL next to HTML/JS code and image banners: pick “VAST Tag” when creating the spot and paste your ad network's in-video banner tag set to the On Pause trigger (for example an ExoClick In-Video Banner).
+- The player requests the tag when the viewer pauses, shows the returned banner (non-linear creatives, ideally 300×250) centred over the paused video, and hides it as soon as playback resumes. Impressions are counted in Advertising only when the banner is actually shown.
+- Saving any VAST spot without a valid http(s) tag URL now warns you instead of silently showing nothing.
+
 ## 1.1.28 - 2026-09-02
 
 - Accurate description for the Secure URLs option
