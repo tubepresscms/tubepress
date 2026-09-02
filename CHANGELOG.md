@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.30 - 2026-09-02
+
+- Bulk video upload
+- New Videos → Bulk Upload page: drop any number of video files, edit the proposed titles, set the status, type, description, categories, tags, pornstars and channels for the whole batch, and start — each file becomes its own video, uploaded one after the other with per-file and overall progress, speed and time left.
+- The duration and a poster thumbnail are read from each file in your browser before it is sent, so every video arrives with a thumbnail even when your server has no FFmpeg; transcoding is queued exactly as for a single upload.
+- You can keep adding files while a batch runs, remove files before they are sent, cancel at any time (videos already created are kept) and retry any file that failed, with the server's reason shown on the row.
+- The Help Center gained an “Upload many videos at once” guide, and the New Video page links to the bulk uploader.
+
 ## 1.1.29 - 2026-09-02
 
 - VAST tags on the Pause Ad placement
