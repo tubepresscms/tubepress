@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.28 - 2026-09-02
+
+- Accurate description for the Secure URLs option
+- The Storage form no longer says signed media links are tied to the visitor's IP address. They never have been, by design, because a forwarded IP can be spoofed.
+- It now states that on a remote storage the signed link redirects to your storage domain, so hotlink protection there is what blocks a direct download.
+
 ## 1.1.27 - 2026-09-01
 
 - Fixes the silent no-op core update introduced by 1.1.26.
