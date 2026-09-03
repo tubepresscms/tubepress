@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.31 - 2026-09-03
+
+- Fixes the Advertising on/off switches and Delete button
+- Turning an ad zone or an ad spot off in Admin → Advertising now takes effect — previously the switch moved but the change was never saved, so the ad stayed active and kept being served.
+- Deleting an ad spot now works — previously the confirmation appeared but the spot was never removed, with no error message shown.
+- Root cause: the admin layout did not emit the CSRF meta tag that the Advertising scripts read, so those requests failed silently before being sent.
+
 ## 1.1.30 - 2026-09-02
 
 - Bulk video upload
