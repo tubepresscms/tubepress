@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.32 - 2026-09-03
+
+- An in-feed ad spot with no creative no longer renders an empty Sponsored card
+- Removing the ad code from a spot in an in-feed placement now genuinely removes the ad. Previously the spot still rendered a clickable, empty "Sponsored / Promoted" card with a blank thumbnail.
+- Same fix applies to an image spot with no image selected, and to a VAST spot placed in an in-feed zone (VAST only plays inside the player).
+- Affects the between-videos, related-videos, homepage, listing, category, performer, tag and gallery-listing placements.
+- Ad spots that do have a code or image creative render exactly as before.
+
 ## 1.1.31 - 2026-09-03
 
 - Fixes the Advertising on/off switches and Delete button
