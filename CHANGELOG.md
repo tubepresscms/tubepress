@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.34 - 2026-09-04
+
+- Transcoding queue: one failing file no longer stops all encoding
+- Fixed: a single video whose rendition failed to upload could freeze the entire transcoding queue. The conversion server stayed reserved for that video for the whole retry window (up to 4 hours), so no other video could start — even with the server completely idle. Importing a new file was the only way to resume.
+- The reservation now only accounts for renditions that are actually ready to run, and reserves that many job slots instead of the whole server.
+- Fixed: when a conversion server went into error, renditions produced from a source it had already encoded stayed stranded on that dead server instead of moving to a healthy one.
+
 ## 1.1.33 - 2026-09-04
 
 - Fixes video renditions failing after a source re-encode on a remote conversion server
