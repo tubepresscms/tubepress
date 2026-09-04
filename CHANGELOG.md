@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.33 - 2026-09-04
+
+- Fixes video renditions failing after a source re-encode on a remote conversion server
+- When a video's source was re-encoded on a remote conversion server, later quality renditions could fail to download the source file and stayed stuck, reporting HTTP 404. Renditions of the same video that had already started were unaffected, so a video could end up with some qualities available and the rest permanently pending.
+- Videos already stuck this way now recover automatically on their next retry — no need to re-upload anything.
+- A conversion server that fails to upload a finished re-encode back to your storage no longer removes the original source file, so the job can be retried safely.
+
 ## 1.1.32 - 2026-09-03
 
 - An in-feed ad spot with no creative no longer renders an empty Sponsored card
