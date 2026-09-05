@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.35 - 2026-09-05
+
+- Videos now show the date they actually went live
+- The publication date of a video is now set when its conversion finishes and it becomes available on your site, instead of when it was imported or uploaded — a video that took hours or days to convert is no longer backdated.
+- A video that is still converting no longer carries a publication date at all, and it stays where you added it in the admin video list instead of dropping to the last page.
+- A video that was already published keeps its original publication date when its file is re-encoded or re-downloaded.
+
 ## 1.1.34 - 2026-09-04
 
 - Transcoding queue: one failing file no longer stops all encoding
