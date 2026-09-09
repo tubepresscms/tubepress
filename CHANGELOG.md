@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.36 - 2026-09-09
+
+- Storage: a brief network hiccup no longer aborts a large FTP upload
+- Fixed: on FTP storage, uploading a finished rendition failed with "Failed to upload <file> to remote storage (FTP/S3 error)" whenever the storage server went quiet for more than 15 seconds mid-transfer. The job then restarted the whole encode and re-uploaded from the beginning, so large files could retry indefinitely.
+- FTP transfers now tolerate up to 300 seconds of no progress, matching the S3 backend. Connecting still fails fast after 15 seconds, and storage checks and deletions are unchanged.
+- Only affects the FTP storage backend; S3 and WebDAV already had this tolerance.
+
 ## 1.1.35 - 2026-09-05
 
 - Videos now show the date they actually went live
