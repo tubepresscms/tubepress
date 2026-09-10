@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.37 - 2026-09-10
+
+- The A-Z tag index now lists every letter in full, accents included
+- Each letter of the tag index again shows up to 200 tags. Sites whose taxonomy exists for several video types were seeing only about a third of them, because the limit was counted before duplicate names were merged.
+- Tags starting with an accented letter (É, Â, Ç, Ñ, Ø …) are now grouped under their own letter instead of the "#" section, and are no longer listed in both places.
+- On some sites a single accented tag could push an entire letter section into "#"; those sections are back where they belong.
+
 ## 1.1.36 - 2026-09-09
 
 - Storage: a brief network hiccup no longer aborts a large FTP upload
