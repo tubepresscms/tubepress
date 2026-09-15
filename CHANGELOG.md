@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.38 - 2026-09-15
+
+- Manually uploaded videos keep their thumbnail on the front end
+- Fixed: a video uploaded from the admin (single or Bulk Upload) only ever stored thumb.jpg, while every listing card requests thumb_small.jpg. On remote storage (S3 / FTP / WebDAV) the card cannot fall back to the full-size file, so thumbnails appeared in the admin but returned 404 on the site. Catalogue imports were unaffected, which is why only uploaded videos looked broken.
+- The small thumbnail is now generated (320 px, GD, original bytes as a fallback where GD is absent) and stored next to the full-size one, on local and remote storage alike.
+- Existing videos are repaired automatically: a background task rebuilds the missing file from the thumbnail already on your storage. No re-upload and no re-import.
+
 ## 1.1.37 - 2026-09-10
 
 - The A-Z tag index now lists every letter in full, accents included
