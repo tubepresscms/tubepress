@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.1.39 - 2026-09-27
+
+- Share previews use the right image address again
+- When CTR Ranking picks the social share image (og:image) of your homepage and listing pages, it now points to the thumbnail on your media storage. On sites whose videos are on a remote storage (S3, FTP, WebDAV or a CDN), it pointed to your own domain instead, so social networks and messaging apps showed no image.
+- Videos whose thumbnail is an external address now use that address as their share image instead of a broken link.
+
 ## 1.1.38 - 2026-09-15
 
 - Manually uploaded videos keep their thumbnail on the front end
