@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.1 - 2026-10-01
+
+- Help Center search and French wording polish
+- Help Center search now ranks the article whose title matches your word first: searching "subscribe" opens Channel subscriptions before the RSS feed guide, and "pwa" finds both installable-app articles.
+- French: the new subscription and member-upload texts use non-breaking spaces before « : », « ? » and « ! », so a colon or question mark never wraps alone onto the next line.
+- To get the redesigned Subscribe button, channel page and upload screens, also update your theme in Admin → Updates (Simply 1.0.29 or Hentai Noir 1.0.16).
+
 ## 1.2.0 - 2026-10-01
 
 - Channel subscriptions, member video uploads and an installable mobile app
