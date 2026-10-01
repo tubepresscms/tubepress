@@ -2,6 +2,17 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.0 - 2026-10-01
+
+- Channel subscriptions, member video uploads and an installable mobile app
+- Channel subscriptions: signed-in visitors can subscribe to any channel from the channel page or right under the player. Their profile gets a Subscriptions tab with the channels they follow and a feed of their latest videos, with a "New" badge on everything published since their last visit and a reminder badge in the account menu. It is free for your members and on by default (Settings → Community). The Channels list now shows how many subscribers each channel has.
+- Member video uploads (off by default): switch them on in Settings → Community and members get an Upload button and a guided upload page. Large files travel in small pieces and resume on their own after a dropped connection; members fill in the title, description, categories and tags while the file uploads, pick a thumbnail from their video, and confirm they hold the rights and that everyone shown is a consenting adult. They follow every video in My uploads.
+- Review before publishing (on by default): new uploads wait in Videos → Member uploads, where you can preview them, approve, reject with a reason the member sees, or edit and publish in one go. Members are emailed when a video is approved or rejected; you get a Telegram alert if you use Telegram notifications and, if you want, an email. You also choose the maximum file size, a daily limit per member and the rules shown on the upload page.
+- Every uploaded file is checked before it is accepted. With transcoding on, members can send MOV, MKV, AVI and other common formats, converted for the web automatically; without it, only browser-ready videos are accepted.
+- Installable mobile app (off by default): in Settings → Mobile app, let visitors add your site to their home screen with your own name, icon and colours. It opens full screen, shows a clean "You're offline" page instead of a browser error, and can suggest the install with a discreet banner (with the two steps explained on iPhone). Your site must use HTTPS.
+- Six new Help Center articles explain these features, and every new screen is translated into all 30 languages.
+- To show these features, also update your theme in Admin → Updates (Simply 1.0.28 or Hentai Noir 1.0.15). Older themes keep working exactly as before; they just don't show the new features.
+
 ## 1.1.39 - 2026-09-27
 
 - Share previews use the right image address again
