@@ -2,6 +2,21 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.3 - 2026-10-02
+
+- Reliability update: restricted hosts, MariaDB, uploads and ads
+- Hosts that disable PHP functions such as shell_exec, exec or proc_open no longer break Server Health, Settings → Transcoding or video processing: TubePress uses whichever method your server allows and tells you exactly what is blocked.
+- FFmpeg and the PHP command line are now detected on hosts that use open_basedir (aaPanel, cPanel and similar), and Server Health checks match the real requirements (PHP 8.2+, MySQL 8.0+ or MariaDB 10.4+, sodium for updates).
+- Catalogue downloads and the transcoding queue work again on MariaDB 10.4 and 10.5.
+- When an image or file is refused (logo, favicon, thumbnails, ad banners, watermark, intro/outro, album images, video thumbnails), the admin now tells you why instead of showing "saved successfully".
+- The automatic updates switch in Settings → Branding now shows its real state; saving that tab no longer turns automatic updates off.
+- In-player Overlay ads work: VAST overlays play as banners over the video and HTML/JS overlay banners are displayed.
+- The embed player lists every available quality with its real label and loads the player from your own site.
+- Buying catalogue videos or galleries while every storage is full is refused before any credit is spent.
+- Duplicate-comment and duplicate-report protection now works on albums.
+- Long transfers to and from remote conversion servers are no longer cut after 10–30 minutes (download a fresh worker script from Settings → Transcoding → Servers).
+- The in-admin Help Center was reviewed against the product: tab names, buttons and defaults are now accurate.
+
 ## 1.2.2 - 2026-10-02
 
 - Theme updates work again on hardened hosts
