@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.2 - 2026-10-02
+
+- Theme updates work again on hardened hosts
+- On servers whose PHP disables proc_open (common on aaPanel, cPanel and shared hosting), Review Changes for a theme update failed with HTTP 500, so themes could not be updated. The change preview no longer needs proc_open or the diff command.
+- If a change preview still cannot be built, the panel now shows the reason instead of a bare HTTP 500.
+- Core updates no longer stop at the pre-update database backup when exec() is disabled.
+
 ## 1.2.1 - 2026-10-01
 
 - Help Center search and French wording polish
