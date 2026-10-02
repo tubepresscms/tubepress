@@ -38,7 +38,7 @@
 | Component | Minimum |
 |---|---|
 | PHP | **8.2+** (built for 8.4, strict types) with PDO, mbstring, json, curl, fileinfo |
-| Database | MySQL 5.7+ or MariaDB 10.4+ |
+| Database | MySQL 8.0+ or MariaDB 10.4+ |
 | Web server | Apache (mod_rewrite) or nginx |
 | Media | FFmpeg for transcoding, thumbnails and previews |
 | HTTPS | Recommended everywhere; required for the installable mobile app |
