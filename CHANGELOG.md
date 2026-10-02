@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.4 - 2026-10-02
+
+- FFmpeg installed in your home folder is now detected
+- TubePress now also looks for FFmpeg in ~/bin and ~/.local/bin, where it is usually installed on shared hosting.
+- When you enter a custom FFmpeg path in Settings → Transcoding → Servers, FFprobe is picked up from the same folder, so jobs that read the video's details no longer fail.
+- The FFmpeg path you enter is checked by running it: a wrong path is refused, and a valid one is accepted even on hosts that restrict PHP's file access (open_basedir).
+
 ## 1.2.3 - 2026-10-02
 
 - Reliability update: restricted hosts, MariaDB, uploads and ads
