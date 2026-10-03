@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.6 - 2026-10-04
+
+- Video conversion on your own server starts on its own
+- Conversions on your own server no longer wait forever: on many sites the "Concurrent jobs" setting was stored as 0, which kept local encoding off even with Transcoding switched on. It now counts as 1 unless you use remote conversion servers, so queued videos start converting after this update.
+- Settings → Transcoding → Servers shows the real state of This Server (jobs in progress, or Remote only) and offers 0 (remote only) as soon as a remote server is set up.
+- Server Health has a new Background tasks line. Without PHP-FPM, conversions, imports, the sitemap and update checks only move forward while you browse the admin, and the line tells you when that is the case.
+
 ## 1.2.5 - 2026-10-03
 
 - Clear storage test results, and Save anyway
