@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.5 - 2026-10-03
+
+- Clear storage test results, and Save anyway
+- Settings → Storage: when the connection test fails, the panel now says why and how to fix it, for example a firewall that blocks FTP file transfers (passive mode) or an FTP account without write permission.
+- You can now save an existing storage even when its test fails (Save anyway), for example to change its Media URL or turn it off while its server is down.
+- FTP uploads that cannot reach the server now stop within seconds with a clear reason in the error log and the import history, instead of hanging for up to 5 minutes.
+- The storage health check now warns you when an FTP storage accepts the login but blocks file transfers.
+- FTP storages whose remote path is not / now create new video folders in the right place.
+
 ## 1.2.4 - 2026-10-02
 
 - FFmpeg installed in your home folder is now detected
