@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.7 - 2026-10-11
+
+- Edit Video: a missing thumbnail can be replaced again
+- On remote storage (FTP, S3, WebDAV), a video without a thumbnail opened Edit Video with an empty, collapsed Thumbnail box that could not be clicked, so no thumbnail could be uploaded. The box now shows "Click to upload" whenever the current thumbnail cannot be loaded.
+
 ## 1.2.6 - 2026-10-04
 
 - Video conversion on your own server starts on its own
