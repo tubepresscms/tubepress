@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.8 - 2026-10-12
+
+- Faster pages on large video libraries
+- The home page, category, tag, pornstar and channel pages and the Newest sort no longer slow down as the library grows.
+- Watch pages open faster: on very large libraries, related videos are now found without reading every video that shares a category or tag.
+- Every page no longer scans the whole library to find which video types are published.
+- The admin dashboard lists the latest videos instantly.
+- Together with CTR Ranking 3.1.2, category, pornstar and channel thumbnails stay fast when CTR Ranking is active.
+
 ## 1.2.7 - 2026-10-11
 
 - Edit Video: a missing thumbnail can be replaced again
