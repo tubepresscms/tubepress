@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.11 - 2026-10-13
+
+- Card display settings now apply on every page
+- The video card settings (Appearance → Cards: left and right meta, title, duration, title lines) are now applied on every page. They were ignored on server-rendered pages, so cards always showed views and date.
+- Views, likes or date hidden under Appearance → Watch are now hidden on cards too, as the Cards page already showed.
+
 ## 1.2.10 - 2026-10-13
 
 - Faster administration on large video libraries
