@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.10 - 2026-10-13
+
+- Faster administration on large video libraries
+- The Tags, Pornstars, Channels and Categories lists open much faster: only the entries shown on the page have their videos counted.
+- The Videos list opens much faster on large libraries, with the same order as before.
+- The dashboard statistics load faster.
+
 ## 1.2.9 - 2026-10-13
 
 - Faster search on large video libraries
