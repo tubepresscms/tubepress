@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.9 - 2026-10-13
+
+- Faster search on large video libraries
+- Search results open much faster on large libraries, especially for common words: the number of results and the page are now found without reading every matching video. Results are unchanged.
+- Search suggestions while typing come back several times faster.
+- The database backup taken automatically before a core update now works when the database uses a custom port or socket, and stays fast on very large databases when mysqldump is not available.
+
 ## 1.2.8 - 2026-10-12
 
 - Faster pages on large video libraries
