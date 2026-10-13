@@ -2,6 +2,22 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.16 - 2026-10-13
+
+- Security and reliability update
+- Moderator accounts can no longer open the areas reserved for administrators (ads, pages, languages, support, purchases and billing, theme SEO and appearance settings).
+- Two-factor authentication can no longer be skipped by signing in to another account in the same browser.
+- Changing a password now signs out your other sessions.
+- Saving a video or a gallery no longer removes pornstars or channels listed beyond the first 1,000 names, and the picker now finds every name.
+- Saving a deactivated user no longer re-activates the account; user forms explain duplicate names, emails and short passwords.
+- Transcoding: an interrupted encode is no longer taken for a finished one, so the original upload is kept; failed jobs stop retrying after three rounds.
+- Catalogue purchases are never sent twice after a network timeout.
+- Comments: visitors now see whether their comment was published, is waiting for approval or was refused, and keep their text after an error.
+- Watch pages show pornstar photos and channel logos; sort menus keep the page language; gallery category, tag, pornstar and channel counts stay up to date.
+- Contact form messages are translated and the form keeps what the visitor typed after an error.
+- Many smaller fixes: requests that caused server errors, sitemaps, search, tags page, secure video links, time zones, updates on a full disk, mail errors now logged.
+- Update Simply / Hentai Noir and CTR Ranking as well.
+
 ## 1.2.15 - 2026-10-13
 
 - Admin video and album lists open at once on large libraries
