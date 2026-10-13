@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.13 - 2026-10-13
+
+- Galleries stay fast on large libraries
+- Gallery listings, gallery category, tag, pornstar and channel pages open in a fraction of a second on large gallery libraries, for every sort.
+- The gallery results of the search page come back several times faster.
+- Admin → Albums and the gallery categories, tags, pornstars and channels lists open quickly; on very large lists the video counts fill in a moment after the page.
+- Admin → Albums: the category and pornstar filters now list gallery categories and gallery pornstars.
+- Nothing changes in what is shown.
+
 ## 1.2.12 - 2026-10-13
 
 - Watch pages no longer pause during the background recount
