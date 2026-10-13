@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.14 - 2026-10-13
+
+- Related videos and galleries: exact and fast on large libraries
+- Related galleries now load in a fraction of a second on large gallery libraries.
+- On sites without CTR Ranking, related videos on large libraries are again exactly the best matches, as on smaller libraries, and still load in a fraction of a second.
+- Nothing else changes.
+
 ## 1.2.13 - 2026-10-13
 
 - Galleries stay fast on large libraries
