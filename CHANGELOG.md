@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.15 - 2026-10-13
+
+- Admin video and album lists open at once on large libraries
+- Admin → Videos and Admin → Albums open at once even with tens of thousands of pornstars or categories; the full filter lists fill in a moment after the page.
+- Nothing else changes.
+
 ## 1.2.14 - 2026-10-13
 
 - Related videos and galleries: exact and fast on large libraries
