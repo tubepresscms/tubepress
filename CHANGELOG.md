@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.12 - 2026-10-13
+
+- Watch pages no longer pause during the background recount
+- Every 10 minutes TubePress recounts the videos of each category, pornstar, channel and tag. On large libraries that recount could make a watch page opened at the same moment wait a few seconds. It now runs without holding up any page.
+- Admin → Categories, Tags, Pornstars and Channels: the "With videos" and "Without videos" filters open in a fraction of a second on large libraries.
+- The sitemap of a large library is rebuilt several times faster.
+- Nothing changes in what is shown.
+
 ## 1.2.11 - 2026-10-13
 
 - Card display settings now apply on every page
