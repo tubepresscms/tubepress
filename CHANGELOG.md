@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.17 - 2026-10-14
+
+- Clear warning when the domain does not serve TubePress's public folder
+- The installer now stops with clear instructions when your domain serves a copy or a renamed version of TubePress's public/ folder, a setup in which uploaded images and videos kept on your server cannot load.
+- Sites already set up that way show the same warning at the top of the admin and in Settings → Maintenance → Server Health.
+- In that setup the admin now keeps its styling and scripts.
+
 ## 1.2.16 - 2026-10-13
 
 - Security and reliability update
