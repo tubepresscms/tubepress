@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.19 - 2026-10-14
+
+- Hide already-imported content in the catalogue, and AI translation into your site's main language
+- Import → Catalogue has a new Hide imported switch, for videos and galleries: what you have already imported disappears from the results, and the totals, page numbers and Download all cover only what you can still import. Your choice is remembered.
+- Already-imported content is now recognised across your whole library, however large, and galleries still waiting in the import queue count as imported.
+- Catalogue AI translation now includes your site's main language when it isn't English: the translated title and description become the main ones, and the English version keeps the original text.
+- English is no longer sent for translation or billed, since catalogue content is already in English.
+
 ## 1.2.18 - 2026-10-14
 
 - Background tasks on LiteSpeed hosting, and catalogue downloads that resume
