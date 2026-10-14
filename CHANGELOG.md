@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.18 - 2026-10-14
+
+- Background tasks on LiteSpeed hosting, and catalogue downloads that resume
+- On LiteSpeed servers, background tasks (catalogue downloads, video conversions, imports, the sitemap and update checks) now run after every page view, as they already did on PHP-FPM, instead of only while an admin page is open.
+- A catalogue video download interrupted by the hosting, for example by a time limit on PHP processes, now continues where it stopped on the next attempt instead of starting again from zero, so large videos finish on hosts that stop long-running PHP processes.
+- Settings → Maintenance → Server Health now recognises LiteSpeed in the Background tasks check.
+
 ## 1.2.17 - 2026-10-14
 
 - Clear warning when the domain does not serve TubePress's public folder
