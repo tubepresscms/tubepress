@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.21 - 2026-10-15
+
+- Contact form, report and upload e-mails now reach you when Contact email is empty
+- Settings → Contact → Transport says the Contact email receives contact-form messages, report alerts and test e-mails, and falls back to your admin account address when left empty. Only the test e-mail did that: with the field empty, contact-form messages, content-report alerts and member-upload notices were shown in the admin Inbox but never e-mailed.
+- They now go to your Contact email when it is set, otherwise to your admin account address. Nothing changes when a Contact email is set, and an e-mail type switched off in Settings → Contact → Email types stays off.
+
 ## 1.2.20 - 2026-10-15
 
 - Backup sources: let visitors switch between several players for the same video
