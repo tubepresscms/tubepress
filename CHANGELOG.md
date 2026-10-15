@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.26 - 2026-10-15
+
+- Help Center: advertising guides
+- The Help button now has an Advertising section: setting up your first ad, which zone goes where, popunders and their preview, video player ads (VAST), targeting and scheduling, ad settings and ads.txt, reports, and what to check when an ad does not show. On the Ads page it suggests the guides for the tab you are on.
+- The download queue guide explains the new Retry AI button.
+
 ## 1.2.25 - 2026-10-15
 
 - Catalogue imports: clear AI errors and a Retry AI button
