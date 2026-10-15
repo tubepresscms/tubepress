@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.25 - 2026-10-15
+
+- Catalogue imports: clear AI errors and a Retry AI button
+- When the AI service refuses an import's AI (for example when your credits run out), the import no longer retries for minutes: the video is imported right away with its original title, and the reason is shown.
+- On the Downloads page, an import whose AI failed now shows "AI failed" with the reason, and a Retry AI button. "Retry failed AI" in the toolbar retries them all. The AI options were paid at import, so retrying costs nothing. The video keeps its address; only its title, description and translations are updated.
+- Gallery imports whose AI failed were shown as "AI done". They are now marked as failed, and Retry AI redoes only the steps that failed.
+- A rewritten description is no longer lost when an import resumes after a pause.
+
 ## 1.2.24 - 2026-10-15
 
 - Ads: every switch, setting and zone checked
