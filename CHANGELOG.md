@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.27 - 2026-10-15
+
+- Ads: no more empty ad places, overlays appear with their image
+- An active ad spot whose code or image is missing no longer leaves its zone empty on part of your pages: the other ads of the zone, or your house ad, now fill the place.
+- Full-screen (interstitial), push and pause ads now load their image before they appear, so visitors on slow connections no longer see an empty box first. A full-screen ad whose image cannot load is not shown at all.
+- The two squares beside the homepage hero are only shown on wide screens: "Mobile only" is no longer offered there, and the zone page says so.
+
 ## 1.2.26 - 2026-10-15
 
 - Help Center: advertising guides
