@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.22 - 2026-10-15
+
+- In-Page Push zone: ad-network tags now show up
+- The In-Page Push zone only displayed TubePress's own push card (icon + headline). An HTML / JS code spot in it, such as ExoClick's In-Page Push tag, was skipped, so the network never received a single impression.
+- Code spots in this zone now load your network's tag on every page, and the network decides when to show its notification. Image spots keep the built-in card, unchanged.
+- The zone description in Advertising now explains both options.
+
 ## 1.2.21 - 2026-10-15
 
 - Contact form, report and upload e-mails now reach you when Contact email is empty
