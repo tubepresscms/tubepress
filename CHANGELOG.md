@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.23 - 2026-10-15
+
+- Homepage hero: no more empty ad box
+- When a homepage hero spot had no usable creative (its code cleared, or an image spot without an image), an empty "Sponsored" box still showed at the top of the homepage, and empty squares beside the hero. Such spots are now skipped, as in every other ad zone. Ads that have a creative look exactly the same.
+
 ## 1.2.22 - 2026-10-15
 
 - In-Page Push zone: ad-network tags now show up
