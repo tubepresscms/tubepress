@@ -2,6 +2,22 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.24 - 2026-10-15
+
+- Ads: every switch, setting and zone checked
+- Zone and ad-spot switches now always save what you see. If the change cannot be saved (expired session, lost connection), the switch goes back and tells you why. A spot switch could also flip the wrong way after a double click; fixed.
+- Saving an ad spot no longer fails with a server error on long addresses or long country lists. Web addresses can be up to 2,048 characters, and a wrong address is refused with a message naming the field.
+- After saving, and in the zone list, you are told when a spot cannot show or cannot count: no ad code, no web address, no image, an image without a click address (not clickable), a schedule that has ended or not started, countries chosen while the site is not behind Cloudflare, or "Mobile only" in a zone that is hidden on phones.
+- Ticking a box on the Settings tab no longer sends you back to the first tab.
+- Zone pages say when ads, the zone or popunders are switched off. Popunder zones have a "Preview on your site" button: it shows what would open, without opening anything or leaving the page.
+- Full-screen (interstitial) and push ads always keep their close button, even when "Visitors can close ads" is off. Banner close buttons now sit on the banner itself.
+- On phones, the push ad no longer covers the sticky bottom banner.
+- An image ad without a click address is shown as a plain image: it no longer counts fake clicks or sends visitors to your homepage.
+- The player popunder now also works on embedded videos (iframe players): the first click on the player opens it.
+- Reports: the 7-day and 30-day totals covered one extra day; fixed.
+- "Between related" now recommends its real size (600 × 340 in-feed card), and several zone descriptions were corrected.
+- Visitors' browsers now load the latest popunder script after each update.
+
 ## 1.2.23 - 2026-10-15
 
 - Homepage hero: no more empty ad box
