@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.28 - 2026-10-15
+
+- Ads: saving an ad keeps everything you did not change
+- Saving an ad spot no longer resets settings that are not shown for its type (for example the click address of a VAST ad, or a popunder's settings), so switching a spot's type later finds its earlier settings intact.
+
 ## 1.2.27 - 2026-10-15
 
 - Ads: no more empty ad places, overlays appear with their image
