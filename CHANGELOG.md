@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.20 - 2026-10-15
+
+- Backup sources: let visitors switch between several players for the same video
+- In the video form (Media tab), add up to 10 backup sources under the main one: other embed codes for the same video, each with an optional label.
+- When a video has more than one source, a Sources bar appears under the player. Visitors switch instantly without reloading the page, and the source they leave stops playing. The /embed/ player has the same switch.
+- Paste several embed codes at once and each one gets its own row. An embed code that can't be used is pointed out before you save.
+- CSV and JSON imports accept a new Backup Sources column: one or more embed codes or player URLs, separated by | or a new line.
+- Fix: embed codes whose address carries several parameters, such as ?id=12&start=30, now play with all of them. Videos saved before are repaired automatically.
+
 ## 1.2.19 - 2026-10-14
 
 - Hide already-imported content in the catalogue, and AI translation into your site's main language
