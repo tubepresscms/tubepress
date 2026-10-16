@@ -2,6 +2,24 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.31 - 2026-10-16
+
+- Ads: player popunders open in every browser, video ads counted when they play, weights and house ads honoured
+- "On pause" and "On play" player popunders now open in Firefox and Safari too (their popup blockers stopped them).
+- Video ads: the player's warm-up clip is no longer counted, a post-roll is no longer counted as a mid-roll, and each mid-roll is credited to its own spot.
+- Pause and play popunders and the pause card react only to the viewer, not to seeking, ad breaks or a double-click.
+- Clicking an ad (banner, in-feed card, push, interstitial, video ad, Skip) no longer also opens the site-wide popunder.
+- Several popunders, network codes or video ads for the same moment now take turns by weight; house ads only fill in.
+- The interstitial and the push show once per visit even when several tabs open at once, and never in a background tab.
+- Reports: popunder opens are counted apart and no longer inflate the CTR; days follow your site's timezone.
+- Visitors whose browser blocks storage no longer get popunders, interstitials or pushes on every page.
+- In full screen the pause ad and the player overlay now show; the overlay no longer hides the Skip button.
+- Embedded videos: the first click is never lost to the popunder layer when no popunder can open.
+- Behind Cloudflare, Docker or another proxy, rate limits and captcha checks use the visitor's own address.
+- Translated pages show the header banner where it belongs; phones held sideways get the sticky banner; iPads in apps get desktop ads.
+- Popunder preview never leaves the page; ad-network code with several scripts runs them in order.
+- Saving warns about http:// ad addresses on https sites; hero squares say when no hero banner can show them.
+
 ## 1.2.30 - 2026-10-16
 
 - Ads: popunder script always up to date, accurate video ad counts, country codes checked
