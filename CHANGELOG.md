@@ -2,6 +2,18 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.30 - 2026-10-16
+
+- Ads: popunder script always up to date, accurate video ad counts, country codes checked
+- The popunder script is now delivered with every update (sites updated from the admin kept an old copy).
+- Video ads in the player count an impression when they start playing, not when the page loads.
+- "Unlimited" popunders are no longer capped per period; only the safety limit of 10 per visit remains.
+- Country targeting checks the codes you enter: UK is saved as GB (the code for the United Kingdom) and codes that are not countries are reported.
+- Closing the mobile sticky ad no longer leaves an empty band at the bottom of the page.
+- /ads.txt answers "not found" until you add lines, instead of an empty file.
+- Tablets now get the desktop ads, like iPads already did; Mobile means phones.
+- Opening the link of a deleted ad now tells you it no longer exists.
+
 ## 1.2.29 - 2026-10-16
 
 - Ads: player popunders, pause card, preview and saving fixes
