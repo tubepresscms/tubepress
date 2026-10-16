@@ -2,6 +2,25 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.32 - 2026-10-16
+
+- Ads: Age Gate respected, network code only where its ad shows, popunders on any tap on iPhones
+- With the Age Gate plugin on, no ad shows over the gate, no popunder opens and nothing is counted until the visitor enters, even on slow pages.
+- Ad-network code now runs only where its ad is on screen, so networks never count hidden ads: the interstitial loads its code once per visit and opens only if the network fills it, the pause card waits for the first pause, the player overlay loads once, and the sidebar, related column and hero squares wait until they are shown. Closed zones are not sent again during the visit.
+- Ad-network code that runs after the page has loaded (interstitial, pause card, overlay, album pages loaded by infinite scroll) works as it does on page load: its load handlers run and document.write lands in place, without ever wiping the page.
+- iPhones: the site-wide popunder now also opens on a tap on text or empty space, but not on a tap that only stops scrolling.
+- Popunders stay at least 30 seconds apart from one page or tab to the next.
+- A video shows one overlay at a time (VAST or HTML, picked by weight).
+- Ad labels (Sponsored, Promoted, Advertisement, Close ad) are shown in the visitor's language; the sticky bar's label no longer covers the banner.
+- Ads in album pages loaded by infinite scroll now run, are counted and stay closed once closed; closing an ad hides the other ads of that zone on the page.
+- The player's overlay and pause ads stay under the site's header and windows, the push under its menus, and the overlay fits small phones.
+- The interstitial works with the keyboard and screen readers, even after a click in the player, and closes when its ad is clicked.
+- Ad images keep their shape and reserve their space while loading; ad styles load with the page.
+- Video ads near the end of a video are credited to the right spot; Space and Enter pause and play like a click.
+- New setting "Allow interactive video ads (VPAID)", off by default: such ads used to be skipped without a word.
+- Ad clicks are counted only for real visitors (no robots, link checkers or paused spots) and kept out of search engines.
+- Admin: addresses with spaces are saved correctly, ads.txt can hold 60 KB (with a warning if it has to be cut), in-feed cards made of ad-network code can have a headline, clearer notes for player popunder triggers and https warnings, and the alert bar no longer covers the last button.
+
 ## 1.2.31 - 2026-10-16
 
 - Ads: player popunders open in every browser, video ads counted when they play, weights and house ads honoured
