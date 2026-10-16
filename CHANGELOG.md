@@ -2,6 +2,16 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.29 - 2026-10-16
+
+- Ads: player popunders, pause card, preview and saving fixes
+- "Once per visit" now holds across tabs: the interstitial and push no longer show again, and a closed ad no longer comes back, when a visitor opens videos in new tabs; a popunder limited per browser session is limited across all its tabs.
+- A player popunder set to open "On pause" now opens when the viewer pauses the video, not when a pre-roll ends or the video finishes; "On play" opens when the viewer starts or resumes, not when the video restarts by itself after an ad.
+- The pause ad no longer flashes for a moment when a video ad hands over to the video.
+- "Preview on your site" on the Player Popunder zone now opens one of your videos, and the preview explains why nothing would open when that is the case.
+- If a save is refused (for example after signing in again in another tab, or when the form is larger than your server accepts), you now stay on the form with a message instead of losing your changes silently.
+- Saving a mobile sticky ad no longer changes its device setting.
+
 ## 1.2.28 - 2026-10-15
 
 - Ads: saving an ad keeps everything you did not change
