@@ -2,6 +2,16 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.35 - 2026-10-17
+
+- Ads: right-to-left pages, the video-ad Skip button in every language, only real visitors counted
+- Arabic, Hebrew and Persian pages now mirror the ad controls: close buttons on the left, the Ad label on the right, and the push card in the bottom-right corner on computers.
+- A long push-card headline no longer runs under its close button, and on phones the push card is centred with equal margins.
+- Visitors whose device asks for reduced motion get the push card without its slide-in animation.
+- Before the player has loaded, the video already fills its frame: on phones the page no longer gets wider than the screen while the player loads.
+- The Skip button of video ads (VAST) now speaks the language of the page, in all 30 languages.
+- Search robots, link previews (WhatsApp, Slack…), scripts, headless browsers, page-speed tests and browser prefetches no longer add clicks, impressions or popunder opens to your ad reports. They are still sent on to the advertiser.
+
 ## 1.2.34 - 2026-10-17
 
 - Ads: banner images hosted on another site keep their place while they load
