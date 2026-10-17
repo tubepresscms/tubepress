@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.33 - 2026-10-17
+
+- Ads: ad images keep their size while loading, player ads fit the player and never cover the play button
+- Banner ads, the phone sticky bar and the player overlay have their final size before their image has loaded: the page no longer jumps and the close button no longer moves under the visitor's finger.
+- The player overlay (image or HTML) now shows only while the video plays. On phones it covered part of the big play button, so a tap meant to start the video could open the ad; it also overlapped the pause ad. It is now counted only when it was really on screen.
+- The pause ad and the player overlay always fit inside the player, whatever the shape of the image (a 300×600 half-page went out of the player, hiding the close button), in full screen and when the phone is turned as well. A wide banner used as pause ad is shown larger on phones.
+- On phones, the sticky bar and the player overlay keep the proportions of any image, without empty bands, and never enlarge an image beyond its own size.
+
 ## 1.2.32 - 2026-10-16
 
 - Ads: Age Gate respected, network code only where its ad shows, popunders on any tap on iPhones
