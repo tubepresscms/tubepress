@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.34 - 2026-10-17
+
+- Ads: banner images hosted on another site keep their place while they load
+- When you save an ad whose image is on another site, its size is now read and kept, so the page reserves its place before the image arrives: nothing jumps when it appears (Google counts such jumps in Core Web Vitals) and the close button no longer moves under the visitor's finger.
+- Ads saved before this update show "Image size unknown: open and save it once" in their zone: opening and saving them is enough.
+
 ## 1.2.33 - 2026-10-17
 
 - Ads: ad images keep their size while loading, player ads fit the player and never cover the play button
