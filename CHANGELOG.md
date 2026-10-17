@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.36 - 2026-10-17
+
+- Ads: older banners hosted elsewhere get their size by themselves, automated browsers no longer counted
+- Ads saved before 1.2.34 with an image hosted on another site no longer need to be opened and saved: the site reads their size by itself in the background after a page view, so their place is reserved and nothing jumps. If an image cannot be read, its zone says so and the site tries again every day.
+- Browsers driven by automation tools (Selenium, Puppeteer, Playwright) no longer add impressions, popunder opens or clicks to your reports, even when they pretend to be a normal browser. Their clicks still lead to the advertiser.
+- Turkish: the Skip button of video ads now says "Reklamı atla", the wording of Google's players.
+
 ## 1.2.35 - 2026-10-17
 
 - Ads: right-to-left pages, the video-ad Skip button in every language, only real visitors counted
