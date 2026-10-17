@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.37 - 2026-10-17
+
+- Ads: the sticky bar never covers the video, the player fits a phone held sideways
+- On phones held sideways, the sticky ad bar now steps aside while it would cover the video player, and comes back below it. The play, pause and full-screen buttons are never under an ad, and the bar is not counted while it is aside.
+- The video player now fits the screen height on phones held sideways (and in short, wide windows), so the whole video and its controls are visible at once.
+- The pause ad card no longer covers the player's control bar on small screens.
+
 ## 1.2.36 - 2026-10-17
 
 - Ads: older banners hosted elsewhere get their size by themselves, automated browsers no longer counted
