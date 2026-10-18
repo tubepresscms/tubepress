@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.38 - 2026-10-18
+
+- Ads: the push card never covers the video player
+- On a watch page, the push ad card no longer lands on the video. On computers it uses the bottom corner the player leaves free; on phones held sideways and on tablets it waits until the visitor scrolls past the player, and it is only counted once it shows.
+- If the player comes back behind it, the push card (like the sticky bar on phones held sideways) slides away and returns when the player moves on. While away, neither can be reached with the keyboard.
+- Visitors who ask for less motion no longer see these ads slide.
+
 ## 1.2.37 - 2026-10-17
 
 - Ads: the sticky bar never covers the video, the player fits a phone held sideways
