@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.39 - 2026-10-18
+
+- Ads: automated browsers in disguise are not counted either
+- Impressions, popunder opens and ad clicks from automated browsers are no longer counted when they hide the automation flag and pretend to be a normal Chrome, Safari or Firefox. The ads still show and still lead to the advertiser.
+- Real visitors are counted exactly as before.
+
 ## 1.2.38 - 2026-10-18
 
 - Ads: the push card never covers the video player
