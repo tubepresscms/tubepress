@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.41 - 2026-10-19
+
+- More reliable update downloads
+- If the connection to the update server drops or the server is briefly unavailable while an update, plugin or theme is downloading, TubePress now retries automatically (up to 3 attempts) instead of failing at once.
+- If the update server really cannot be reached, the message now says so plainly: nothing was changed on your site, and you can try again in a few minutes.
+
 ## 1.2.40 - 2026-10-19
 
 - The installer and Server Health now check that your theme files load
