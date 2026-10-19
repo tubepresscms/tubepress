@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.40 - 2026-10-19
+
+- The installer and Server Health now check that your theme files load
+- At the end of the installation, TubePress checks that your theme's stylesheet really loads. If your server answers it with an error, which happens on aaPanel and other panels that disable PHP's symlink() function, it shows exactly what to add to your Nginx configuration.
+- Settings → Maintenance → Server Health has a new Theme assets check that runs the same test at any time and gives the fix to apply when your site shows without styling.
+- The command-line installer reports the same problem in its result.
+
 ## 1.2.39 - 2026-10-18
 
 - Ads: automated browsers in disguise are not counted either
