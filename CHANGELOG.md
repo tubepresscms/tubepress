@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.2.42 - 2026-10-20
+
+- Video sitemap: no more "Missing thumbnail" errors in Google Search Console
+- On storages with Secure URLs, imported videos no longer list an admin-only thumbnail link that Google cannot open.
+- A video with no public thumbnail is now listed as a normal page instead of an invalid video entry, so Search Console stops reporting errors and the page is still crawled.
+- After updating, open SEO → Sitemap, click Regenerate, then resubmit your sitemap in Search Console.
+
 ## 1.2.41 - 2026-10-19
 
 - More reliable update downloads
