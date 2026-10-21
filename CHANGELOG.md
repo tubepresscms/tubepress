@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.2 - 2026-10-21
+
+- Free plugins and themes install without connecting an account
+- On sites that are not connected to a TubePress account, installing a free plugin or theme from Admin → Plugins or Admin → Themes (for example CTR Ranking) no longer fails with "Marketplace not configured": the signed package is downloaded through the public channel and verified as usual.
+- Paid items still ask you to connect your account first, now with a clear message.
+
 ## 1.3.1 - 2026-10-21
 
 - Cleaner deletions and up-to-date help for CTR Ranking 4
