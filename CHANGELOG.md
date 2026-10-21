@@ -2,6 +2,16 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.0 - 2026-10-21
+
+- Galleries load faster and stay fast on very large sites
+- Gallery photos are now served as lightweight WebP thumbnails sized for each screen. They are created automatically in the background for uploads, catalogue imports and your existing galleries, and the originals are kept for full-size viewing.
+- Gallery listings, counts, filters and deep pages stay fast even with hundreds of thousands of galleries.
+- Gallery categories, tags, pornstars and channels are ranked and listed faster, and their pages show a cover from their best gallery when they have no image of their own.
+- Removing photos or galleries also removes their thumbnails, so no files are left behind.
+- Photos taken with a phone keep their correct orientation in thumbnails.
+- New gallery texts (Up next, Next gallery, More from…) are translated in all 30 languages.
+
 ## 1.2.42 - 2026-10-20
 
 - Video sitemap: no more "Missing thumbnail" errors in Google Search Console
