@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.3 - 2026-10-22
+
+- VAST video ads play again with every ad network
+- Fixed: a valid VAST tag never played. The player validated each ad creative with a CORS request before accepting it; ad networks serve their video files without CORS headers, so every ad was silently discarded. Pre-roll, mid-roll, post-roll, overlay and pause ads were all affected.
+- Creatives that cannot be verified are now played instead of dropped, and the network records the impression and the quartile events as expected. A creative that genuinely cannot play still falls back to the main video.
+- The player bundle now ships inside the updated files, so this fix reaches sites updating from the admin. Clear your CDN cache if you use one.
+
 ## 1.3.2 - 2026-10-21
 
 - Free plugins and themes install without connecting an account
