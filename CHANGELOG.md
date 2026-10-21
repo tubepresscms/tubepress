@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.1 - 2026-10-21
+
+- Cleaner deletions and up-to-date help for CTR Ranking 4
+- Deleting videos or galleries no longer writes errors to the log on sites running CTR Ranking 4, and no leftover statistics remain.
+- The built-in help and the feed import page now describe CTR Ranking 4: gallery cover tests and the Picked for you rows.
+- Ships the default themes Simply 1.3.0 and Hentai Noir 1.3.0, ready for CTR Ranking 4.
+
 ## 1.3.0 - 2026-10-21
 
 - Galleries load faster and stay fast on very large sites
