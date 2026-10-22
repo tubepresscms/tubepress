@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.5 - 2026-10-22
+
+- Video ads no longer call an outside server
+- On Safari and Chrome for Android, the blank clip the player plays just before a pre-roll ad now comes from your own site instead of cdn.fluidplayer.com, so ad blockers and privacy settings no longer get in its way.
+- Uploads to WebDAV storage now try again by themselves after a brief connection drop or server error, as S3 uploads already did, and a failed upload now names the reason in the error log.
+
 ## 1.3.4 - 2026-10-22
 
 - Preview clips from your own feeds and dumps
