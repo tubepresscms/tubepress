@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.7 - 2026-10-22
+
+- The "Auto-translation paused" bar goes away once translation can run again
+- After running out of credits, the "Auto-translation paused — insufficient credits" bar stayed at the bottom of every admin page even once you had topped up and resumed. It now shows only while a translation job is actually paused for credits, disappears as soon as you resume it, and its "Fix" link opens the list where the Resume button is.
+
 ## 1.3.6 - 2026-10-22
 
 - Admin menu that works with screen readers
