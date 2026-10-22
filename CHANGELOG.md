@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.8 - 2026-10-22
+
+- Every admin page meets WCAG 2.1 AA
+- Text, labels, badges and status colours on every admin page now reach the WCAG AA contrast minimum. The light grey and pale colours used for secondary text, dates, counters and hints were too faint to read for many people.
+- Every list checkbox, filter, toggle, slider, date and file field, and every icon-only button (close, show password, play preview, remove file…) now has a name that screen readers announce.
+- The "Email types" list opens and closes with the keyboard. The page editor's resize handle, the theme code editor and the watermark preview are labelled.
+- In Data Purge, a type with nothing to delete no longer fades the whole row: only its checkbox is unavailable.
+
 ## 1.3.7 - 2026-10-22
 
 - The "Auto-translation paused" bar goes away once translation can run again
