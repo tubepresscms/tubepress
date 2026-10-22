@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.6 - 2026-10-22
+
+- Admin menu that works with screen readers
+- The sidebar's sub-menu arrows, the mobile menu buttons and the log-out button now tell screen readers and keyboard users what they do, and the sub-menu arrows report whether their menu is open.
+- Sidebar sub-menu links, the server load figures in the header and the storage alert banner are easier to read: their text now meets the WCAG AA contrast ratio.
+
 ## 1.3.5 - 2026-10-22
 
 - Video ads no longer call an outside server
