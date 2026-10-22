@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.4 - 2026-10-22
+
+- Preview clips from your own feeds and dumps
+- Feed Import and Upload File (CSV/JSON) can now take a preview clip URL: map the preview column of your feed or dump to "Preview clip URL" and the MP4 clip is downloaded with the video and plays when visitors hover the thumbnail, for embedded and downloaded videos alike. MRSS feeds with a preview or trailer element are picked up automatically.
+- Fix: Feed Import's automatic column matching could take a preview_url column for the main video URL; exact column names now win.
+- Fix: importing a file again with "Update existing" no longer detaches videos from their stored thumbnail and media.
+
 ## 1.3.3 - 2026-10-22
 
 - VAST video ads play again with every ad network
