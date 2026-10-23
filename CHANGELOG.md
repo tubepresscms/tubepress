@@ -2,6 +2,16 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.10 - 2026-10-23
+
+- Imports, downloads and translations go on by themselves
+- Background tasks no longer need anyone on the site: on hosting without PHP-FPM or LiteSpeed, or when no visit reaches the site, the heartbeat runs them every minute. Imports, downloads, conversions and translations keep moving while you are away, and admin pages no longer wait for them.
+- AI translations paused for lack of credits continue by themselves as soon as your balance covers them: no need to press Resume. The alert at the bottom of the admin says so, its "Top up" link opens the run with a Buy credits button, and any alert can be hidden for 24 hours.
+- Downloads and galleries that failed for a passing reason (source or network unavailable, expired link, interrupted transfer) are tried again automatically 15 minutes, 1 hour and 4 hours later.
+- The Import figure of the top bar adds up every running import (rows done / total on hover). Running CSV imports stay listed however long they take, finished ones stay visible for 3 days with their result, and 100% only shows once an import is finished.
+- Only one heartbeat runs per site, and it is renewed after each update.
+- Server Health: "Background tasks" passes when the heartbeat runs them.
+
 ## 1.3.9 - 2026-10-23
 
 - Each theme's Live demo in Admin → Themes
