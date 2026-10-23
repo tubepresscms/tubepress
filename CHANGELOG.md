@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.9 - 2026-10-23
+
+- Each theme's Live demo in Admin → Themes
+- Admin → Themes now shows the Live demo of each theme, set by its author on the marketplace: on an installed theme (in its row and in its Details window) and on the themes of the marketplace (next to "View details" on the card, and in the details window).
+- The demo opens in a new tab, and screen readers announce it as such. A theme without a demo shows nothing new.
+
 ## 1.3.8 - 2026-10-22
 
 - Every admin page meets WCAG 2.1 AA
