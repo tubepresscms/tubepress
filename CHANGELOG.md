@@ -2,6 +2,18 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.14 - 2026-10-23
+
+- Background work survives hostings that stop background processes
+- On some hostings (PHP as CGI), the processes started by a page stopped with it, so the background work stopped too. They now run on their own and keep going.
+- Server Health tells when the heartbeat was last started, and, if your hosting still stops it, gives the cron job to add (one line, ready to copy).
+
+## 1.3.13 - 2026-10-23
+
+- Background work on any hosting, even when its command-line PHP is different
+- On some hostings the command-line PHP cannot run the site (another PHP build, or one without the MySQL extension): downloads, imports and translations then only moved while an admin page was open. TubePress now tests it, and when it cannot run the site, the site does the work itself — the heartbeat asks it every minute — so everything still goes on while you are away.
+- Server Health tests the command-line PHP for real and says what it lacks, and the Heartbeat row says when the tasks run through the site.
+
 ## 1.3.12 - 2026-10-23
 
 - The background tasks keep going right after an update
