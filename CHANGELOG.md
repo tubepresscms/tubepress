@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.11 - 2026-10-23
+
+- Admins are no longer locked out by their own sign-ins
+- The admin sign-in limit only counts wrong passwords now: signing in several times with the right password (from a few devices, or when someone helps you check your site) no longer ends with "Too many login attempts". A connection blocked after wrong passwords stays blocked until its window ends.
+- The message of a blocked sign-in says how long to wait, for example "Please try again in 37 min.".
+
 ## 1.3.10 - 2026-10-23
 
 - Imports, downloads and translations go on by themselves
