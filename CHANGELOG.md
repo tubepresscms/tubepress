@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.12 - 2026-10-23
+
+- The background tasks keep going right after an update
+- The background tasks of the new version take over as soon as the page reloads after Update Now — even if you close the admin right away.
+- A heartbeat that had stopped long ago (after a server restart, for example) no longer prevents a new one from starting.
+- Server Health shows a Heartbeat row: running (when it was last seen, which version) or not, and why when it cannot start the tasks.
+
 ## 1.3.11 - 2026-10-23
 
 - Admins are no longer locked out by their own sign-ins
