@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.15 - 2026-10-23
+
+- The heartbeat starts again whenever it has gone silent
+- If the background heartbeat stopped (after a server restart, for example) in a way the system could not see, it now starts again by itself as soon as it has been silent for a few minutes — no more background work left waiting.
+
 ## 1.3.14 - 2026-10-23
 
 - Background work survives hostings that stop background processes
