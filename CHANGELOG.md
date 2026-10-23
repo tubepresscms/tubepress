@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.17 - 2026-10-23
+
+- Background imports fixed — and a failed import can now be resumed
+- Imports running in the background (with nobody on the site) could stop with "Class AdminImportController not found". This is fixed, and after the update the imports and feed items it stopped continue automatically where they stopped.
+- A failed import now has a Resume button: it continues where it stopped. If its file was deleted, upload the same file again first — Resume finds it.
+- The reason a failed import stopped is now shown in full.
+
 ## 1.3.16 - 2026-10-23
 
 - A CSV file can no longer be deleted while it is being imported
