@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.16 - 2026-10-23
+
+- A CSV file can no longer be deleted while it is being imported
+- On the Import page, a saved file that an import is still using now shows "Importing…" instead of the delete button. Deleting it used to stop that import with "Import file not found".
+- If an import file goes missing anyway, the message now tells you what to do: upload the file again and import it — the videos already imported are not added twice.
+
 ## 1.3.15 - 2026-10-23
 
 - The heartbeat starts again whenever it has gone silent
