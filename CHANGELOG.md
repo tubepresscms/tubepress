@@ -2,6 +2,17 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.21 - 2026-10-24
+
+- Lighter, faster pages: pictures in the size each screen needs
+- Video thumbnails now come in 480, 640 and 1280 px copies (WebP) next to the original, and themes pick the one each card and each screen needs. Category, pornstar and channel pictures, profile photos and covers no longer load the original, which could weigh several MB.
+- Videos already on the site get their copies in the background, a few at a time, without slowing it down; new videos get them as they are added.
+- Galleries: covers and photos use their smaller copies, and the photos that open on screen are loaded first, the largest one ahead of the others.
+- The video player no longer downloads the video before the visitor presses play (it pulled several MB on every watch page, on the visitor's data plan and your bandwidth), and its poster now shows with the page's first paint.
+- Ads at the top of the page load right away, in a copy sized for the screen (made automatically, in WebP).
+- Text on your primary colour is now white or dark automatically, whichever stays readable on the colour you chose.
+- A page without a meta description gets one built from the site name and its most popular categories.
+
 ## 1.3.20 - 2026-10-24
 
 - /root/ux-admin-work/release/changelog-core-1320.txt
