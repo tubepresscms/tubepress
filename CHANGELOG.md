@@ -2,6 +2,10 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.20 - 2026-10-24
+
+- /root/ux-admin-work/release/changelog-core-1320.txt
+
 ## 1.3.19 - 2026-10-24
 
 - /root/ux-admin-work/release/changelog-core-1319.txt
