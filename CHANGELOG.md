@@ -2,6 +2,21 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.18 - 2026-10-24
+
+- A friendlier admin: search every list, a Help Center that follows your theme, page buttons that fit on phones
+- Lists: the search box of Videos, Albums, Categories, Tags, Pornstars, Channels, Users and Comments now searches the whole list when you press Enter, not only the rows of the page, and keeps your filters. The number found is shown and × clears the search.
+- Lists: "Show 20 / 50 / 100 / 200 / 500 / 1000 per page" works and is remembered for the next lists you open.
+- Lists: in the All view of categories, tags, pornstars and channels, each name shows its section (Straight, Gay, Hentai…), so a name that exists in two sections is easy to tell apart.
+- Users: show all accounts, only members, or only the accounts created for imported channels; channel and deactivated accounts carry a badge.
+- Comments: the Pending and Spam tabs show how many comments wait, a search finds a comment by its text or its author, and Approve, Spam or Delete keeps you on the same tab, search and page.
+- Settings: the first tab is now named General and is sorted into Members, Comments, Content and Updates; the Contact tab is now named Email. Nothing else moved and every setting keeps its value.
+- Updates is always in the sidebar, with your version number, so the update history and rollback are one click away even when nothing new is available.
+- Phones: the buttons of a page (New Video, New Category…) stay on screen, on one row under the title, the main one first.
+- Help Center: brought up to date (background imports and automatic retries, resumable imports, translations that resume by themselves, Live demo, the Server Health heartbeat, sign-in limits) with a new guide to searching lists. With the Giga theme, the Appearance guides follow the Giga studio page by page and each studio page suggests its own guide. Back returns to your search results; Escape or a click outside closes it.
+- Themes and Plugins: marketplace pictures and theme thumbnails no longer show as broken images, and plugins get clear Activate and Deactivate buttons.
+- Fixed: the "Filter by reason" menu of Inbox → Reports did nothing; the Pages list keeps its columns readable with many languages; the Inbox title is no longer shown twice; the Themes page no longer scrolls sideways on phones.
+
 ## 1.3.17 - 2026-10-23
 
 - Background imports fixed — and a failed import can now be resumed
