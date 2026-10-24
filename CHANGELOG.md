@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.22 - 2026-10-24
+
+- Theme updates can be reviewed and installed again
+- Admin → Updates → Review Changes failed with a browser error on the latest theme updates, which also hid the Update button and made the themes impossible to install; the preview now handles font and image files correctly.
+- When the change preview cannot be built, the admin shows what went wrong instead of an error from the browser.
+
 ## 1.3.21 - 2026-10-24
 
 - Lighter, faster pages: pictures in the size each screen needs
