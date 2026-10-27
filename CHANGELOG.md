@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.23 - 2026-10-27
+
+- AI Translate now finds video and album titles that were never translated
+- Videos and albums imported with a translated description could keep their original title in that language, and AI Translate then counted the title as already translated ("Everything here is already translated"). The update finds those titles so AI Translate can translate them; until then your pages keep showing the original title.
+- Imports that translate only the description no longer copy the original title into the other languages.
+- If "Keep new … translated automatically" is on, those titles are translated in the background at the usual price.
+- The AI Translate window shows your real credit balance even when there is nothing left to translate.
+
 ## 1.3.22 - 2026-10-24
 
 - Theme updates can be reviewed and installed again
