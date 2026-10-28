@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.24 - 2026-10-28
+
+- AI translation no longer turns 18+ wording into words that mean a minor
+- "teen", "teens", "young", "schoolgirl" and "barely legal" are now translated for what they are — labels for performers of legal age (18-25) — with each language's adult-industry term (Russian «молоденькие», Spanish «jovencitas», Portuguese «novinha», French «jeune») instead of the literal word for a minor.
+- Applies to every AI translation: the AI Translate window for videos, categories, tags, pornstars, channels, albums and pages, the catalogue import, and the feed/CSV/upload import.
+- The admin prompt preview now shows exactly what is sent to the AI.
+- Performer and studio names are unaffected: they are still re-spelled, never translated.
+- Translations made before this update keep their old wording — clear the field and run AI Translate again, or edit it from the Translations button.
+
 ## 1.3.23 - 2026-10-27
 
 - AI Translate now finds video and album titles that were never translated
