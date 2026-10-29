@@ -2,6 +2,16 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.25 - 2026-10-29
+
+- Localized URLs are now the canonical URLs
+- On a multilingual site the menu already linked to the translated route segments (/ru/kategoriya/x, /ru/pornozvezdy, /ru/teg/x) while the canonical tag, hreflang alternates, breadcrumbs and the sitemap still pointed at the English segments (/ru/category/x) — and both forms returned 200, so every category, tag, pornstar, channel and video page existed twice per language.
+- The translated URL is now the canonical one everywhere: canonical tag, hreflang, breadcrumbs, JSON-LD and the sitemap all emit the same address the menu links to.
+- The English form now 301-redirects to it, so the duplicates collapse instead of competing. Query strings are preserved; POST and AJAX requests are untouched; custom pages are unaffected.
+- A stale URL (old slug + English segment) now reaches its canonical form in one redirect instead of two.
+- Nothing changes on single-language installs, on the default language, or in the 12 languages whose URL slugs are already English. After updating, hit Regenerate in Admin → SEO → Sitemap so the cached shards pick up the new addresses.
+- Prefer the English form? Set it per language in Admin → Languages → Edit Translations → URL Slugs.
+
 ## 1.3.24 - 2026-10-28
 
 - AI translation no longer turns 18+ wording into words that mean a minor
