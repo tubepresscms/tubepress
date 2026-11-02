@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.26 - 2026-11-02
+
+- An over-long feed/CSV field no longer fails the whole import row
+- Importing a row whose title, thumbnail URL, tag, category, performer or channel name was longer than its database column failed that row with "SQLSTATE[22001]: String data, right truncated: 1406 Data too long", and no video was created.
+- Two common triggers: a title over 255 characters, and a Korean/Japanese/Chinese title that fits the title column but romanises 2.4-2.7x longer, overflowing the 280-character URL slug.
+- Values are now fitted to the real column width before the insert — in the CSV/JSON import, the feed import (both Embed and Download), album imports, and the catalogue category/tag/performer/channel creators.
+- Slugs are clipped before the uniqueness check and re-clipped when a "-N" suffix is added, so a clipped slug can never collide or overflow. Existing slugs and URLs are unchanged.
+
 ## 1.3.25 - 2026-10-29
 
 - Localized URLs are now the canonical URLs
