@@ -23,7 +23,7 @@
 - **Ad system built in** — dozens of placement zones across pages and player (VAST‑compatible pre/mid/post‑roll slots and on‑pause banners), managed from the admin.
 - **Member accounts** — registration, favorites, watch history and comments: the audience layer, on your own domain.
 - **Channel subscriptions** — members follow the channels they like, for free, and get a feed of their new videos with "New" badges; you see subscriber counts per channel.
-- **Member uploads** — optional and moderated: members send their own videos through a guided, resumable upload page (large files, phones, flaky connections), and you approve or reject each one from a review queue, with an email to the member either way.
+- **Member uploads** — optional and moderated: members send their own videos through a guided, resumable upload page (large files, phones, flaky connections), or submit a video hosted elsewhere with its embed code, and you approve or reject each one from a review queue, with an email to the member either way.
 - **Native CTR ranking** — impressions and clicks measured per video and fed back into listing order; no external recommendation service required.
 - **SEO by default** — VideoObject / BreadcrumbList schema, XML sitemaps, hreflang, clean canonical URLs, server‑rendered HTML.
 - **Multilingual** — 30 interface languages shipped; per‑entity translation tooling, with optional AI translation for video and album categories and tags.
