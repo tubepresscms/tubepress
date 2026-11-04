@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.27 - 2026-11-04
+
+- Members can now send a video with an embed code
+- Turn on Settings → Community → "Also accept videos sent as an embed code" and your members can paste the iframe code, or the player link, of a video hosted somewhere else instead of sending a file.
+- You choose which sites they may embed from: list the domains, one per line, or leave the list empty to accept any. Only the player address is kept, it must be https, and your own site is refused.
+- An embedded video still needs a cover image, and it goes through the same review queue, daily limit, rules, emails and Telegram alert as an uploaded video. Nothing is stored on your server and nothing is converted.
+- Videos → Member uploads marks these submissions as Embedded, shows which site they come from and plays the real player in the preview.
+- It needs a theme that offers the embed form: Simply 1.3.11 and Hentai Noir 1.3.12 do, and Settings → Community tells you when your theme does not.
+
 ## 1.3.26 - 2026-11-02
 
 - An over-long feed/CSV field no longer fails the whole import row
