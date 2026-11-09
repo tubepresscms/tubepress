@@ -10,7 +10,7 @@
 
 > **Name note:** this project is **not affiliated** with the legacy "TubePress" WordPress/YouTube gallery plugin (tubepress.com, 2006‑era). This TubePress is a standalone, self‑hosted CMS for adult video sites, published at **[tubepress.io](https://tubepress.io)**.
 
-**[Website](https://tubepress.io)** · **[Simply demo](https://simply.tubepress.io)** · **[Hentai Noir demo](https://hentai.tubepress.io)** · **[Download](https://tubepress.io/download)** · **[Documentation](https://tubepress.io/documentation)** · **[Guides](https://tubepress.io/guides)** · **[Compare](https://tubepress.io/compare)** · **[Changelog](https://tubepress.io/changelog)**
+**[Website](https://tubepress.io)** · **[Giga demo](https://premium.tubepress.io)** · **[Simply demo](https://simply.tubepress.io)** · **[Hentai Noir demo](https://hentai.tubepress.io)** · **[Download](https://tubepress.io/download)** · **[Documentation](https://tubepress.io/documentation)** · **[Guides](https://tubepress.io/guides)** · **[Compare](https://tubepress.io/compare)** · **[Changelog](https://tubepress.io/changelog)**
 
 ![TubePress demo](assets/screenshot-hero.webp)
 
@@ -30,7 +30,7 @@
 - **Photo galleries & albums** — first‑class image content type alongside video.
 - **Installable mobile app (PWA)** — visitors can add your site to their home screen with your own name, icon and colours; it opens full screen and shows a clean offline page instead of a browser error. No app store involved.
 - **Compliance tooling** — Age Gate plugin (multiple modes, RTA labeling), per‑video reporting with a moderation queue, editable legal pages, role‑based admin/moderator accounts.
-- **Themes & plugins** — two themes ship (Simply and Hentai Noir) and every marketplace plugin is free; theme API and plugin system, with readable PHP throughout.
+- **Themes & plugins** — three free themes ship with every install: Giga (the default theme), Simply and Hentai Noir; optional premium themes and plugins on the marketplace; theme API and plugin system, with readable PHP throughout.
 - **Optional AI add‑ons** — credit‑priced descriptions, title/description rewriting and entity translation on top of the free core; credits are topped up with cryptocurrency.
 - **Self‑hosted, portable, yours** — plain PHP 8.2+ and MySQL/MariaDB; install with a 5‑step web wizard in about five minutes.
 
@@ -57,12 +57,12 @@ Full walkthrough: [documentation](https://tubepress.io/documentation) · [how to
 ## Pricing & license
 
 - The **core CMS is free**, for unlimited sites of your own — no trials, no feature gates, no per‑domain fees.
-- **Every marketplace plugin and theme is free too** — Age Gate, Backup Pro, CTR Ranking, Simply and Hentai Noir, at no cost. Only the content catalogue and the AI features are credit‑priced; credits are topped up with cryptocurrency.
+- **The bundled themes are free too** — Giga (the default theme), Simply and Hentai Noir ship with every install, and the Age Gate plugin is free. Premium add‑ons — the PicsXXX theme and the CTR Ranking, Backup Pro and White Label plugins — are optional one‑time purchases, and the content catalogue and the AI features are credit‑priced; credits are topped up with cryptocurrency.
 - TubePress is **source‑available, not open‑source**: the PHP you deploy is fully readable and auditable, but the software remains proprietary and may not be redistributed or resold. See [LICENSE](LICENSE.md) and the [terms](https://tubepress.io/terms).
 
 ## FAQ
 
-**Is it really free?** Yes — the full core, for your own sites, without limits on videos or domains. Plugins and themes are free as well; only catalogue imports and AI features consume credits.
+**Is it really free?** Yes — the full core, for your own sites, without limits on videos or domains. The bundled themes (Giga, Simply and Hentai Noir) and the Age Gate plugin are free as well; premium add‑ons, catalogue imports and AI features are optional and paid with credits.
 
 **Is it open source?** No. The code is readable PHP (no ionCube, nothing encoded), which is why we say *source‑available* — but it is proprietary software, not OSI open source, and this repository is a publishing mirror rather than a development tree.
 
