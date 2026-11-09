@@ -10,7 +10,7 @@
 
 > **Name note:** this project is **not affiliated** with the legacy "TubePress" WordPress/YouTube gallery plugin (tubepress.com, 2006‑era). This TubePress is a standalone, self‑hosted CMS for adult video sites, published at **[tubepress.io](https://tubepress.io)**.
 
-**[Website](https://tubepress.io)** · **[Giga demo](https://premium.tubepress.io)** · **[Simply demo](https://simply.tubepress.io)** · **[Hentai Noir demo](https://hentai.tubepress.io)** · **[Download](https://tubepress.io/download)** · **[Documentation](https://tubepress.io/documentation)** · **[Guides](https://tubepress.io/guides)** · **[Compare](https://tubepress.io/compare)** · **[Changelog](https://tubepress.io/changelog)**
+**[Website](https://tubepress.io)** · **[Giga demo](https://giga.tubepress.io)** · **[Simply demo](https://simply.tubepress.io)** · **[Hentai Noir demo](https://hentai.tubepress.io)** · **[Download](https://tubepress.io/download)** · **[Documentation](https://tubepress.io/documentation)** · **[Guides](https://tubepress.io/guides)** · **[Compare](https://tubepress.io/compare)** · **[Changelog](https://tubepress.io/changelog)**
 
 ![TubePress demo](assets/screenshot-hero.webp)
 
