@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.28 - 2026-11-09
+
+- Giga becomes the free default theme, and every card keeps its picture
+- New installs start with Giga, the free default theme. Simply and Hentai Noir still ship with TubePress, and an existing site keeps the theme it uses.
+- Giga and Simply never need a licence check, and Simply can no longer be uninstalled: TubePress shows it whenever the active theme is missing a page or cannot run.
+- Fixed: on sites whose videos sit on a read-only storage (such as a shared catalogue CDN), the larger thumbnail sizes were deleted by the local clean-up a few hours after being made, leaving empty cards on wide screens. They are kept now, and missing ones are made again automatically.
+- Fixed: a pornstar, channel or category whose only video was already shown by another card on the page had no picture; it now shows its best thumbnail.
+
 ## 1.3.27 - 2026-11-04
 
 - Members can now send a video with an embed code
