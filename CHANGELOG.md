@@ -2,6 +2,17 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.29 - 2026-11-10
+
+- Language links that work on every page, cleaner titles and descriptions
+- Switching language from the search, history, favourites or any other page whose address is translated now opens that page in the chosen language instead of a "page not found", and search engines receive the matching addresses.
+- Page numbers in titles are separated from the site name again ("My site - Page 2").
+- The default description of a section lists that section's own popular categories, without repeating a name.
+- Descriptions built from formatted text no longer run words together, and a short homepage description is now also used when the page is shared on social networks.
+- The history and favourites pages show their title in the visitor's language, and a renamed account shows its new username immediately.
+- Another website can no longer log your members or administrators out through a hidden link.
+- Admin → Languages shows a theme's own translations (for example Giga's) instead of the English text.
+
 ## 1.3.28 - 2026-11-09
 
 - Giga becomes the free default theme, and every card keeps its picture
