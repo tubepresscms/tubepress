@@ -19,7 +19,7 @@
 - **Video pipeline built in** — FFmpeg transcoding with admin‑defined formats and renditions, poster thumbnails, animated hover previews, optional watermark and intro burn‑ins, multi‑server storage.
 - **Content catalogue** — over 1.9 million catalogue items (1.4M+ videos, 565k+ photo galleries) available for one‑click, per‑item import, so a new site is never empty.
 - **Bulk import & upload** — CSV/JSON feeds with mapping, scheduling and safe re‑runs, plus a drag‑and‑drop bulk uploader that turns any number of local video files into videos in one go (titles, thumbnails and durations filled in automatically).
-- **Backup sources for embedded videos** — give a video several embed players; if a host removes or blocks one, visitors switch to another with one click under the player, without reloading the page.
+- **Backup sources** — give a video several players: embed codes from other hosts or video files you upload (other parts, versions or mirrors, converted like the main video). Visitors switch between them with one click under the player, without reloading the page, so a video stays watchable when a host removes or blocks it.
 - **Ad system built in** — dozens of placement zones across pages and player (VAST‑compatible pre/mid/post‑roll slots and on‑pause banners), managed from the admin.
 - **Member accounts** — registration, favorites, watch history and comments: the audience layer, on your own domain.
 - **Channel subscriptions** — members follow the channels they like, for free, and get a feed of their new videos with "New" badges; you see subscriber counts per channel.
