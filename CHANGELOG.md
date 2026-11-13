@@ -2,6 +2,16 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.30 - 2026-11-13
+
+- Backup sources can now be video files uploaded to your site
+- In Edit Video → Media → Backup sources, each source is now an embed code or a video file. Click "Upload video files" to pick several files at once, or drop them on the block: each file becomes a numbered button under the player, and you can still mix files with embed codes.
+- Files upload in the background in small pieces, so large files work whatever your server's upload limit (up to 20 GB each). You see the progress, speed and time left; a lost connection pauses the upload and it resumes by itself, and if you save while files are still uploading, the video is saved as soon as they finish.
+- Backup files are stored on your default storage (local, FTP, S3 or WebDAV) and converted like the main video — qualities, watermark, trim and preview timeline, on this server or on your conversion servers. Visitors only see a file once it can be played. Without video conversion, MP4 (H.264), MOV and WebM files are used as they are.
+- Visitors switch with the numbered buttons: a file plays in your site's own player, in your theme's colour, with its quality choice.
+- Each file shows its status — Ready, Converting with live progress, or Failed with the reason — and can be previewed, replaced or removed. Deleting a video deletes its backup files.
+- Settings → Storage counts backup files and will not delete a storage that still holds some. The Help Center article on backup sources covers it step by step.
+
 ## 1.3.29 - 2026-11-10
 
 - Language links that work on every page, cleaner titles and descriptions
