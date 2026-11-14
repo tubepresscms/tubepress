@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.32 - 2026-11-14
+
+- Imported channels, categories and performers now follow the video's type
+- A feed import filed the channels, categories and performers it created under the default video type instead of the type of the videos being imported - only tags were correct.
+- On a site publishing more than one video type, those terms landed in the wrong section: missing from /channels, /categories, /pornstars and the search box, while their page still opened from a direct link and listed its videos.
+- Terms are now looked up and created with the video's own type, as the catalogue import and tags already did.
+- Channels, categories and performers imported before this update keep their old type - set it in Admin -> Channels/Categories/Pornstars -> Edit -> Type.
+- Imports with no type set (CSV/JSON) are unchanged, so single-type sites are unaffected.
+
 ## 1.3.31 - 2026-11-14
 
 - Add or remove tags on many videos at once
