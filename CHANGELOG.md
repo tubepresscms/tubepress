@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.33 - 2026-11-14
+
+- Categories that fill themselves from tags
+- Edit a category and list tags under Auto-include tags: every video carrying one of those tags joins that category on its own — the videos already in your library, and every video added later, whether you upload it, import it from the catalogue or a feed, or a member sends it.
+- Your library is applied in the background. The category list shows "applying…" while it runs and the category page shows how far it has got, so you can close the tab and come back.
+- Take a tag off the list and the videos it had brought in leave the category again. Videos you added to a category by hand are never touched by a rule.
+- On a video, the categories its tags put it in are listed under the Categories box, so it is always clear why a video is where it is — remove the tag to take it out.
+
 ## 1.3.32 - 2026-11-14
 
 - Imported channels, categories and performers now follow the video's type
