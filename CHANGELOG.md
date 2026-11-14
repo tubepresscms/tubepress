@@ -2,6 +2,17 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.31 - 2026-11-14
+
+- Add or remove tags on many videos at once
+- On Videos, tick the videos you want — or search or filter the list and use "Select all matching videos" to take every page of the results — then click the new Tags button in the selection bar.
+- Choose Add tags or Remove tags and type the tags: existing tags are suggested as you type, with their number of videos, and a tag that does not exist yet is created for you. Up to 20 tags at a time.
+- Under "On these videos", the tags the selected videos already have are listed: click one to put it in the list, so taking a tag off a set of videos takes two clicks.
+- Tags a video already has stay as they are, so running it twice changes nothing, and removing a tag never deletes the tag itself. On a site with several sections, each video gets the tag of its own section, and a video never ends up with the same tag twice.
+- Large selections run in batches with a progress bar and a Stop button, and at the end you see, for each tag, how many videos changed. Tag counts and the sitemap stay up to date.
+- "Select all matching videos" now always acts on exactly the videos the list shows, also when the search contains symbols such as * or quotes. This applies to Delete too.
+- The selection bar wraps on small screens instead of running off the edge, and the Help Center has a new article on bulk tagging.
+
 ## 1.3.30 - 2026-11-13
 
 - Backup sources can now be video files uploaded to your site
