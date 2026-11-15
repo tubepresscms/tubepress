@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.34 - 2026-11-15
+
+- Create Video and Create Album no longer do nothing when the title is empty
+- Clicking Save from the Media, Images or Relations tab while the required Title was still empty did nothing at all — no message, no error, nothing saved. The form now opens the tab holding the missing field and points at it.
+- Saving a video no longer fails with a "Duplicate entry" database error when two saves start at the same moment, for example a double tap while a thumbnail is still uploading.
+
 ## 1.3.33 - 2026-11-14
 
 - Categories that fill themselves from tags
