@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.47 - 2026-11-16
+
+- Albums: add or remove tags and categories in bulk
+- Albums: the selection bar now has Tags and Categories, as in the Videos list. Tick albums — or use "Select all N matching albums" — then add or remove tags or categories on all of them at once, with a progress bar on large selections.
+- They work on the tags and categories of albums (Albums → Tags, Albums → Categories): a tag that does not exist yet is created there, and the tags and categories of your videos are never touched.
+
 ## 1.3.46 - 2026-11-16
 
 - The edit page of a video shows its qualities and makes what is missing
