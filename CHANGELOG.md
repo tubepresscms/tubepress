@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.49 - 2026-11-16
+
+- Updates: a download that stops no longer freezes the admin
+- Updating: when the update package stops coming (a network hiccup between your server and ours), TubePress now gives up after a few seconds and tries again, three times, instead of waiting five minutes each time. Either the update goes through, or you get a clear message within a minute — and nothing is changed on your site.
+- The admin stays usable while an update is running: other pages open normally, and starting the same update a second time is refused at once instead of piling up.
+- Updates page: when the list of updates cannot be loaded, the page says so and shows the last list it received, instead of "Everything is up to date!".
+- If the connection is cut while an update is still running, the page tells you it may still be running and reloads by itself to show the result.
+
 ## 1.3.48 - 2026-11-16
 
 - Videos and albums: add or remove channels and pornstars in bulk
