@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.35 - 2026-11-16
+
+- Albums stay visible when one album has a different type
+- Fixed: adding a single album of another type made every previously visible album disappear from /albums. The album listing split into per-type sections as soon as two album types existed, even on a site that publishes a single video type — where no section switcher and no /type/ URL exists to reach the other section, so those albums could not be reached at all.
+- Albums now split by type only on sites that really publish several video types, and never scope to a type the visitor has no navigation for. Sites with several video types behave exactly as before.
+- Fixed: the sitemap repeated the home page and the /albums hub twice per language when albums used a type the site does not publish for videos.
+
 ## 1.3.34 - 2026-11-15
 
 - Create Video and Create Album no longer do nothing when the title is empty
