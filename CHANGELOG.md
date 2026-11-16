@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.43 - 2026-11-16
+
+- Conversions: a version is never made from a smaller one
+- When a conversion is tried again later ("Retry failed", or the automatic retry), it now starts from the original, or from a converted version taller than the one being made. Until now it could start from a smaller version and produce, for example, a "720p" file that was really an enlarged 480p.
+- If the original has been deleted and nothing taller is left, a version that can no longer be made is dropped from the queue instead of being retried or faked.
+- Remote storage: when an original was removed by hand, the site notices it at the next conversion and lists the video with the quality it really has.
+
 ## 1.3.42 - 2026-11-16
 
 - Remote storage: a retried conversion no longer waits for an original that is gone
