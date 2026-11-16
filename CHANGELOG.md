@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.44 - 2026-11-16
+
+- Give the videos you already have the formats you tick later
+- Settings → Transcoding → Formats → "Videos you already have": goes through your library in the background and makes what is missing — the active formats a video does not have yet (never above its own quality), its timeline previews if they are on, and the conversion of videos that never had one. Nothing a video already has is deleted or made again, new videos are not held back, and you can stop it at any moment.
+- Replacing the file of a video (edit form) now converts it again. On a local disk the versions of the old file used to stay in place, so visitors still got the old video in the lower qualities.
+- "Delete the original once the converted versions are ready" now also applies to a video that is already published while it converts (uploads, file and feed imports).
+- A version being made or uploaded is no longer offered to visitors before it is complete (local disk).
+
 ## 1.3.43 - 2026-11-16
 
 - Conversions: a version is never made from a smaller one
