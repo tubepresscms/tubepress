@@ -2,6 +2,11 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.42 - 2026-11-16
+
+- Remote storage: adding a format later to a video whose original is gone
+- Remote storage (S3, FTP, WebDAV): adding a format to a video whose original file had already been deleted — by "Shrink to save space", by the "Original files" box, or by hand — no longer retries on a missing file. The new version is made from the best converted version the video still has.
+
 ## 1.3.41 - 2026-11-16
 
 - Originals: kept or deleted by your choice, and offered as the best quality on remote storage too
