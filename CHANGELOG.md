@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.48 - 2026-11-16
+
+- Videos and albums: add or remove channels and pornstars in bulk
+- Videos and Albums: the selection bar now has Channels and Pornstars, next to Tags and Categories. Tick rows — or use "Select all N matching" — then add or remove one or several channels or pornstars on all of them at once, with a progress bar on large selections.
+- Adding one never removes what a video already has, and removing one never deletes the channel or the pornstar itself. They are not created there: add a new one on the Channels or Pornstars page first. On a site with several sections, each video gets the one of that name in its own section.
+- The Albums list works on the channels and pornstars of albums (Albums → Channels, Albums → Pornstars), which are separate from those of videos.
+
 ## 1.3.47 - 2026-11-16
 
 - Albums: add or remove tags and categories in bulk
