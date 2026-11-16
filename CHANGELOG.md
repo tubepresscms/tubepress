@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.38 - 2026-11-16
+
+- The quality filter finds your 1080p videos
+- Filtering a list of videos by 1080p Full HD returned no video at all on a library imported from the catalogue: the quality each video was bought with was never saved, so nothing could match it. It is now kept with the rest of the video's details.
+- Videos already on your site are filled in by themselves in the background, oldest first, so the quality filter and the HD and 4K badges on your cards start working on your existing library without you doing anything.
+
 ## 1.3.37 - 2026-11-16
 
 - Rewrite the titles and descriptions of videos already on your site with AI
