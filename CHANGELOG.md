@@ -2,6 +2,16 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.39 - 2026-11-16
+
+- AI Rewrite for albums, and the AI options of a file import that keep working on big files
+- Albums get the AI rewrite of videos: a wand button on each row of Albums and a Rewrite button in the selection bar. Same window, same choices, same prices. The text that was there before is kept on the album's edit page, with "Put it back".
+- Videos and albums each have their own run, so rewriting albums does not wait for a videos run to finish.
+- Importing a CSV or JSON file with "Rewrite title" or "Rewrite description": the rewriting is now done by the same engine as the Rewrite window. It no longer stops part-way through a big file, the original text is kept on the edit page, and "Skip what AI already rewrote" recognises these videos.
+- The AI options of a file import are now charged as shown on the import page: each rewrite at its price, each translation per language. What the AI could not do is refunded.
+- An import that cannot pay for the AI options you ticked pauses and says how many credits it needs, instead of importing rows without them. Top up, then click Resume.
+- Fixed: when a refund for AI Translate could not be made at once, it is now retried for two days.
+
 ## 1.3.38 - 2026-11-16
 
 - The quality filter finds your 1080p videos
