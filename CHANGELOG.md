@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.40 - 2026-11-16
+
+- Original files are no longer kept when their converted versions replace them
+- Catalogue import with "Shrink to save space": on a remote storage (Bunny, S3, FTP…) the bigger original was not deleted once the smaller versions were ready. It is now, and "Stream smoothly" never deletes an original.
+- Settings → Transcoding → Formats has a new "Original files" box: it tells you how many videos still have an original bigger than their converted versions, and deletes those originals in the background to free storage. The converted versions stay and keep playing.
+- After its original is deleted, a video is listed with the quality it really has (HD badge and quality filter).
+
 ## 1.3.39 - 2026-11-16
 
 - AI Rewrite for albums, and the AI options of a file import that keep working on big files
