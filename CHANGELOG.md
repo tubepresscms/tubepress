@@ -2,6 +2,18 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.36 - 2026-11-16
+
+- Put many videos in a category at once, or take them out
+- On Videos, tick the videos you want — or search or filter the list and use "Select all matching videos" to take every page of the results — then click the new Categories button in the selection bar.
+- Choose Add categories or Remove categories, then pick the categories: click in the box to see your categories with their number of videos, or type to find one. Up to 20 categories at a time.
+- Under "On these videos", the categories the selected videos are already in are listed: click one to put it in the list, so taking a set of videos out of a category takes two clicks.
+- Videos already in a category stay as they are, so running it twice changes nothing, and removing a category from videos never deletes the category itself. Categories are not created here: create a new one on the Categories page first.
+- On a site with several sections, each video goes into the category of that name in its own section; videos whose section has no such category are left out, and the summary says how many and where.
+- Categories that fill themselves from Auto-include tags keep the videos their tags bring in. Videos you add with this button count as added by hand, so they stay in the category whatever happens to its tags.
+- Large selections run in batches with a progress bar and a Stop button, and at the end you see, for each category, how many videos changed. Category counts and the sitemap stay up to date.
+- The Help Center has a new article on it, linked from the Videos and Categories pages.
+
 ## 1.3.35 - 2026-11-16
 
 - Albums stay visible when one album has a different type
