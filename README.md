@@ -16,7 +16,7 @@
 
 ## Why TubePress
 
-- **Video pipeline built in** — FFmpeg transcoding with admin‑defined formats and renditions, poster thumbnails, animated hover previews, optional watermark and intro burn‑ins, multi‑server storage.
+- **Video pipeline built in** — FFmpeg transcoding with admin‑defined formats and renditions (keep the original as the top quality, or drop it once converted to save storage), poster thumbnails, animated hover previews, optional watermark and intro burn‑ins, multi‑server storage.
 - **Content catalogue** — over 1.9 million catalogue items (1.4M+ videos, 565k+ photo galleries) available for one‑click, per‑item import, so a new site is never empty.
 - **Bulk import, upload, tagging & categories** — CSV/JSON feeds with mapping, scheduling and safe re‑runs, a drag‑and‑drop bulk uploader that turns any number of local video files into videos in one go (titles, thumbnails and durations filled in automatically), and bulk editing that adds or removes tags and categories on a whole selection of videos — or on every result of a search — in one step.
 - **Backup sources** — give a video several players: embed codes from other hosts or video files you upload (other parts, versions or mirrors, converted like the main video). Visitors switch between them with one click under the player, without reloading the page, so a video stays watchable when a host removes or blocks it.
@@ -26,12 +26,12 @@
 - **Member uploads** — optional and moderated: members send their own videos through a guided, resumable upload page (large files, phones, flaky connections), or submit a video hosted elsewhere with its embed code, and you approve or reject each one from a review queue, with an email to the member either way.
 - **Native CTR ranking** — impressions and clicks measured per video and fed back into listing order; no external recommendation service required.
 - **SEO by default** — VideoObject / BreadcrumbList schema, XML sitemaps, hreflang, clean canonical URLs, server‑rendered HTML.
-- **Multilingual** — 30 interface languages shipped; per‑entity translation tooling, with optional AI translation for video and album categories and tags.
+- **Multilingual** — 30 interface languages shipped; per‑entity translation tooling, with optional AI translation of videos, albums, pages, categories, tags, performers and channels.
 - **Photo galleries & albums** — first‑class image content type alongside video.
 - **Installable mobile app (PWA)** — visitors can add your site to their home screen with your own name, icon and colours; it opens full screen and shows a clean offline page instead of a browser error. No app store involved.
 - **Compliance tooling** — Age Gate plugin (multiple modes, RTA labeling), per‑video reporting with a moderation queue, editable legal pages, role‑based admin/moderator accounts.
 - **Themes & plugins** — three free themes ship with every install: Giga (the default theme), Simply and Hentai Noir; optional premium themes and plugins on the marketplace; theme API and plugin system, with readable PHP throughout.
-- **Optional AI add‑ons** — credit‑priced descriptions, title/description rewriting and entity translation on top of the free core; credits are topped up with cryptocurrency.
+- **Optional AI add‑ons** — credit‑priced title and description rewriting — at import, or on videos and albums already on your site, one by one or in bulk, with the original text kept — and entity translation, on top of the free core; credits are topped up with cryptocurrency.
 - **Self‑hosted, portable, yours** — plain PHP 8.2+ and MySQL/MariaDB; install with a 5‑step web wizard in about five minutes.
 
 ## Requirements
