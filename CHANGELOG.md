@@ -4,8 +4,8 @@ Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](h
 
 ## 1.3.42 - 2026-11-16
 
-- Remote storage: adding a format later to a video whose original is gone
-- Remote storage (S3, FTP, WebDAV): adding a format to a video whose original file had already been deleted — by "Shrink to save space", by the "Original files" box, or by hand — no longer retries on a missing file. The new version is made from the best converted version the video still has.
+- Remote storage: a retried conversion no longer waits for an original that is gone
+- Remote storage (S3, FTP, WebDAV): when a conversion is tried again ("Retry failed", or the automatic retry) for a video whose original file has been deleted in the meantime — by "Shrink to save space", by the "Original files" box, or by hand — it no longer keeps retrying on the missing file. The version is made from the best converted version the video still has.
 
 ## 1.3.41 - 2026-11-16
 
