@@ -2,6 +2,19 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.37 - 2026-11-16
+
+- Rewrite the titles and descriptions of videos already on your site with AI
+- On Videos, each row has a new wand button and the selection bar a new Rewrite button: the AI gives the videos you pick a new, unique title and description — the same rewriting the import offers, now for videos you uploaded or imported earlier. Tick the videos you want, or search or filter the list and use "Select all matching videos" to take every page of the results.
+- Choose Title, Description or both. A video that has no description gets one written from its title, categories and tags — untick that line to leave those videos as they are. The AI writes in the language of the text it replaces.
+- Open "Instructions given to the AI" in the window to say how it should write: tone, length, words to use or to avoid. An administrator's instructions are saved for the site, and the AI options of imports use the same ones.
+- The price is per title and per description and is shown before you start. You pay only for what is actually rewritten: what the AI could not rewrite, and everything not reached when you click Stop, is refunded. If your credits run out, the run pauses and goes on by itself after a top-up.
+- The window shows the latest rewrites as they arrive, so you can stop and adjust the instructions after the first results. You can close it: the run continues in the background.
+- "Skip what AI already rewrote" is ticked by default, so running it again on the same videos costs nothing.
+- The text that was there before is kept: on the video's edit page it shows under the field as Original, and the new "Put it back" button restores it.
+- The address (URL) of a video does not change unless you tick "Also change the address". Translations already made are not touched: rewrite first, then translate.
+- The Help Center has a new article on it, linked from the window.
+
 ## 1.3.36 - 2026-11-16
 
 - Put many videos in a category at once, or take them out
