@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.46 - 2026-11-16
+
+- The edit page of a video shows its qualities and makes what is missing
+- Videos → edit → Media: the page now lists the qualities visitors can choose for this video, says when conversions are waiting or have failed, and names what is missing with one button to make it (a format you ticked later, the timeline previews, or a first conversion).
+- Settings → Transcoding → Queue: a notice shows while "Videos you already have" is going through your library.
+
 ## 1.3.45 - 2026-11-16
 
 - Formats, remote storage and "Select all matching": the same behaviour everywhere
