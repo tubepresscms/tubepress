@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.41 - 2026-11-16
+
+- Originals: kept or deleted by your choice, and offered as the best quality on remote storage too
+- Remote storage (S3, FTP, WebDAV): a video that keeps its original now offers it as its best quality, as on a local disk. Until now, as soon as a converted version existed, visitors only got the converted versions.
+- Settings → Transcoding → Formats → "Original files": choose whether new videos keep their original (default) or have it deleted once their converted versions are ready, to save storage.
+- For the videos you already have, the same box lets you delete the originals that are bigger than their converted versions or, on a remote storage, offer them to visitors. Nothing changes for them until you click.
+- Albums: tick the whole page, then "Rewrite all matching albums" takes every album your search or filter matches.
+- File imports with AI translation: each charge is now checked against the translations actually saved, and anything not saved is refunded automatically.
+
 ## 1.3.40 - 2026-11-16
 
 - Original files are no longer kept when their converted versions replace them
