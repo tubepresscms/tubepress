@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.45 - 2026-11-16
+
+- Formats, remote storage and "Select all matching": the same behaviour everywhere
+- Remote storage: switching a format off no longer hides the versions already made with it. Until now a video could lose a quality in the player, or offer nothing at all when its only versions were in formats that had been switched off.
+- A conversion that was waiting for a format you switched off is given up instead of staying in the queue for ever.
+- Remote storage: when the site does not know the quality of a file, it now reads it before converting, so a small video is no longer given versions larger than itself. "Videos you already have" can convert these videos too.
+- Videos: "Select all N matching videos" now also applies to Translate (it used to translate the ticked page only).
+- Albums: the list has the same "Select all N matching albums" as the Videos list, for Translate, Rewrite and Delete, with a progress bar when deleting.
+
 ## 1.3.44 - 2026-11-16
 
 - Give the videos you already have the formats you tick later
