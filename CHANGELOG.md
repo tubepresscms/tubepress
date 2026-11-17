@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.50 - 2026-11-17
+
+- Imports: videos join their Auto-include categories, and an update reaches the imports already running
+- Categories → Auto-include tags: videos brought in by an import that was already running when the tags were set, or when the site was updated, carried the tag but stayed out of the category. They now join it as soon as they are imported. The videos imported before are put in their categories by this update, in the background, with nothing to do on your side — the Categories page shows "applying…" while it works.
+- Updating during an import: the imports that are running now switch to the new version by themselves, between two videos or two albums. Nothing is interrupted and nothing is downloaded twice. Until now they kept the version they had started with until their queue was empty — days on a long import — so an update did not reach them. On this update itself, the imports started by an earlier version are restarted once, and their downloads resume where they had stopped.
+- Download queue: when several downloads start together, all your parallel slots work at once. One or two of them used to stop right away and only come back a few seconds later.
+
 ## 1.3.49 - 2026-11-16
 
 - Updates: a download that stops no longer freezes the admin
