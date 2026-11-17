@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.53 - 2026-11-17
+
+- HD and 4K badges on uploaded videos
+- A video uploaded from the admin (Add Video, Bulk Upload or the edit page) now has its quality detected even when video conversion is turned off, so it shows its HD or 4K badge and counts in the HD quality filter, like imported videos. FFprobe must be available on the server.
+- Videos uploaded before this update are detected automatically in the background after updating — nothing to do on your side.
+
 ## 1.3.52 - 2026-11-17
 
 - Change the type of many videos or albums at once; videos kept on a storage server can be converted
