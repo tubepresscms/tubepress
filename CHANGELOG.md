@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.51 - 2026-11-17
+
+- Updating during an import: no import is left on the previous version, and every download resumes at once
+- When this update restarts the imports that an earlier version had started, each download they were working on resumes immediately. One of them could stay on hold for five minutes before it went on.
+- An import started at the very moment the update was applied is restarted too. It could keep the previous version until its queue was empty.
+
 ## 1.3.50 - 2026-11-17
 
 - Imports: videos join their Auto-include categories, and an update reaches the imports already running
