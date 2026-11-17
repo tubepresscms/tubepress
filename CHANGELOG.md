@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.52 - 2026-11-17
+
+- Change the type of many videos or albums at once; videos kept on a storage server can be converted
+- Videos and Albums: the selection bar now has Type, next to Tags, Categories, Pornstars and Channels. Tick rows — or use "Select all N matching" — pick Straight, Gay or Hentai, and all of them change type at once, with a progress bar on large selections.
+- Their tags, categories, pornstars and channels follow them: each video or album is filed under the ones of the same name in its new type, created there when missing. One whose items all leave goes with them, with its description, picture and translations, instead of staying behind empty.
+- Both lists show a Type column as soon as your library holds more than one type.
+- Fixed: "Convert it" on the edit page of a video, and "Videos you already have" in Settings → Transcoding, did nothing for a video whose files are on a storage server when this server makes the conversion: it stayed in the queue with "Source video file not found." The file is now read from the storage server, and the new qualities are sent there.
+
 ## 1.3.51 - 2026-11-17
 
 - Updating during an import: no import is left on the previous version, and every download resumes at once
