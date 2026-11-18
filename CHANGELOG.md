@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.54 - 2026-11-18
+
+- A preview clip can be uploaded with the video
+- Videos → Add New now has a Preview Clip card beside the thumbnail: upload the short MP4 played when a visitor hovers a card (MP4, 25 MB max).
+- The video page shows the clip a video already has and lets you replace or remove it.
+- Bulk Upload attaches one per row with the Clip button — and a file named name-preview.mp4 dropped beside name.mp4 is paired with it automatically.
+- Until now a preview clip could only come from a catalogue, feed or CSV/JSON import; nothing changes for those.
+
 ## 1.3.53 - 2026-11-17
 
 - HD and 4K badges on uploaded videos
