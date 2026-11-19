@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.56 - 2026-11-19
+
+- Installer reachable on Apache hosts with MultiViews enabled
+- public/install.php no longer redirects to /install. On a server with mod_negotiation MultiViews on, that URL was content-negotiated straight back to the same file, looping forever and making a fresh install impossible.
+- It now hands the request to the front controller, so /install and every /install/... step render whether or not MultiViews is on.
+- public/.htaccess switches MultiViews off, so content negotiation can no longer shadow an extensionless route.
+
 ## 1.3.55 - 2026-11-19
 
 - Settings → Storage now says what the local files really are
