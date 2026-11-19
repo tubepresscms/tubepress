@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.55 - 2026-11-19
+
+- Settings → Storage now says what the local files really are
+- The green "External storage active" box counted every folder left in the local media folder and labelled them all "currently uploading/transcoding", so a site with nothing running could read "351 items currently uploading/transcoding".
+- It now reports them separately: what is really being uploaded or converted, what is finished and waiting for the automatic cleanup, and what stays on this server because the video is not published or its storage is this server.
+
 ## 1.3.54 - 2026-11-18
 
 - A preview clip can be uploaded with the video
