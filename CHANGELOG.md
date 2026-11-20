@@ -2,6 +2,19 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.57 - 2026-11-20
+
+- Reset counters, exact-phrase search, a steadier player and AV1 with intros
+- Settings → Maintenance → Data Purge has a new Reset counters box: put video views, video likes & dislikes, album views or album likes & dislikes back to zero, each on its own, without deleting anything. Favourites, comments and watch history are kept, and members can vote again afterwards.
+- The search box of Admin → Videos and Admin → Albums finds an exact phrase when you put it in quotes, for example "ada wong". Bulk actions and Select all matching follow the same search.
+- Player: with a pre-roll whose ad tag is slow to answer, the big play button no longer looks dead. The player shows that it is loading, plays the ad, then the video, without restarting it. This applies to every theme.
+- Player: on phones and Safari, a pre-roll is no longer counted as shown when the ad tag ended up with no ad.
+- Conversion: a format whose FFmpeg options use another codec (AV1, HEVC, VP9…) now gets its intro and outro in that codec. Before, the joined video was damaged.
+- Conversion: an intro or outro without sound no longer removes the sound of the video.
+- Conversion servers: the worker script now converts a format with its own encoder instead of replacing it with H.264. Download the script again from Settings → Transcoding → Servers and restart it on your servers.
+- Download queue: the number of parallel downloads you choose is always respected, also right after a purchase, and lowering it takes effect as soon as the downloads in progress are finished.
+- The Download Queue and Conversion Queue pages no longer send a new refresh request while the previous one is still waiting, which spares a busy server.
+
 ## 1.3.56 - 2026-11-19
 
 - Installer reachable on Apache hosts with MultiViews enabled
