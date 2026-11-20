@@ -2,6 +2,13 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.59 - 2026-11-20
+
+- Files a storage server failed to receive are sent again
+- A catalogue or feed import no longer publishes a video whose thumbnail or preview clip the storage server refused without telling you: the upload is retried, and the file stays on this server until the storage has it.
+- The automatic cleanup (every 30 minutes) now uploads any file of a finished video that its remote storage is missing, from the copy still on this server, checks it, then frees the disk. Videos left without their thumbnail or video file on the storage repair themselves — nothing to re-import.
+- Videos → "No thumb" also lists the videos whose thumbnail is known to be missing, not only those that never had one.
+
 ## 1.3.58 - 2026-11-20
 
 - Vertical videos can be converted without black bars
