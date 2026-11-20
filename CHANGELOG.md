@@ -2,6 +2,15 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.60 - 2026-11-20
+
+- The best quality of a video gets your intro, outro and format settings too
+- Intro & Outro: with an intro or an outro on, the original is now re-encoded at its own resolution, as it already was for a watermark or Trim start. The best quality of a video (the 1080p of a 1080p upload) now starts and ends with your clips; until now only the smaller versions carried them. A new video goes live once that quality is ready, as with a watermark.
+- The re-encoded original now follows the settings of the format of its size: a 1080p original uses your 1080p format, a 4K one your 2160p format. If FFmpeg refuses those settings, the built-in ones are used on the next attempt.
+- Storage server + conversion server: the original is re-encoded at its real size. It could be made as 1080p whatever its resolution.
+- An original with an odd width or height (853×480, 1280×719) is now converted when a watermark, Trim start, an intro or an outro is on. Its conversion used to fail.
+- Sites that use none of these options keep their originals untouched, and videos already converted are not converted again.
+
 ## 1.3.59 - 2026-11-20
 
 - Files a storage server failed to receive are sent again
