@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.58 - 2026-11-20
+
+- Vertical videos can be converted without black bars
+- Settings → Transcoding → Formats has a new choice, "Vertical, square and other shapes". "Add black bars" is what your site does today and stays selected until you change it. "Keep the shape of the video" converts a vertical, square, 4:3 or ultra-wide video without black bars: a vertical 1080x1920 video is 406x720 in 720p instead of 1280x720.
+- With that choice the watermark is placed on the picture, and a phone video recorded upright keeps its full size when its original is re-encoded.
+- The choice applies to the videos converted from now on. Versions already made are not changed; uploading the file of a video again on its edit page converts it again.
+- Conversion servers: download the worker script again and restart it. A server still running an older script keeps adding black bars and is flagged on the Formats and Servers tabs.
+
 ## 1.3.57 - 2026-11-20
 
 - Reset counters, exact-phrase search, a steadier player and AV1 with intros
