@@ -2,6 +2,14 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.62 - 2026-11-21
+
+- "Delete the original" no longer removes the best quality the conversion made
+- With a watermark, Trim start, an intro or an outro on, a video is also converted at its own size (the ★ job in the Queue) and that version replaces the upload. With Original files set to "Delete the original", that version was deleted with the upload once the conversions were done: a 1080p upload ended with 720p as its best quality. It is now kept whenever your site has a format of that size; the upload itself is still deleted.
+- Settings → Transcoding → Queue no longer shows the same quality twice for a video whose top version was removed.
+- Nothing changes for an original bigger than every format of your site, for a site that does not modify its videos, for catalogue imports and for "Delete these originals".
+- Videos converted before this update keep the qualities they have: upload their file again to get the top quality back.
+
 ## 1.3.61 - 2026-11-21
 
 - The download queue never takes more PHP processes than its Parallel setting
