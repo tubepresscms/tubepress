@@ -2,6 +2,12 @@
 
 Release history of the TubePress CMS. Canonical page: [tubepress.io/changelog](https://tubepress.io/changelog) - download: [tubepress.io/download](https://tubepress.io/download).
 
+## 1.3.61 - 2026-11-21
+
+- The download queue never takes more PHP processes than its Parallel setting
+- On a server where the download queue runs inside the site's own PHP processes, a video that took more than 90 seconds (a large file, a slow connection, or a source that kept dropping the connection and made the download wait and retry) let extra download workers start beyond the Parallel setting. They could end up using every PHP process of the site, which then stopped answering its visitors. The queue now keeps to the number you chose (1 to 3), however long a download takes or retries.
+- Workers left in excess by an earlier version stop by themselves after the video they are on.
+
 ## 1.3.60 - 2026-11-20
 
 - The best quality of a video gets your intro, outro and format settings too
